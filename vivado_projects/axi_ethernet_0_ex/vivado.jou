@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Jun  3 12:27:47 2024
+# Process ID: 40993
+# Current directory: /home/gabriel/Desktop/go_workspace/vivado_projects/axi_ethernet_0_ex
+# Command line: vivado -notrace -source /home/gabriel/Desktop/go_workspace/vivado_projects/test_network_1/.Xil/axi_ethernet_0/axi_ethernet_0_ex.tcl
+# Log file: /home/gabriel/Desktop/go_workspace/vivado_projects/axi_ethernet_0_ex/vivado.log
+# Journal file: /home/gabriel/Desktop/go_workspace/vivado_projects/axi_ethernet_0_ex/vivado.jou
+# Running On: agent-32, OS: Linux, CPU Frequency: 1200.000 MHz, CPU Physical cores: 32, Host memory: 135071 MB
+#-----------------------------------------------------------
+start_gui
+source /home/gabriel/Desktop/go_workspace/vivado_projects/test_network_1/.Xil/axi_ethernet_0/axi_ethernet_0_ex.tcl -notrace
+update_compile_order -fileset sources_1

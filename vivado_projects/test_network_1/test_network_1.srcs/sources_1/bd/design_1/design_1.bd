@@ -1,0 +1,45 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xczu19eg-ffvc1760-2-i",
+      "gen_directory": "../../../../test_network_1.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1"
+    },
+    "design_tree": {
+      "ethernet_1_10_25g_0": ""
+    },
+    "components": {
+      "ethernet_1_10_25g_0": {
+        "vlnv": "xilinx.com:ip:ethernet_1_10_25g:2.7",
+        "xci_name": "design_1_ethernet_1_10_25g_0_0",
+        "xci_path": "ip/design_1_ethernet_1_10_25g_0_0/design_1_ethernet_1_10_25g_0_0.xci",
+        "inst_hier_path": "ethernet_1_10_25g_0",
+        "interface_ports": {
+          "s_axi_0": {
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "mode": "Slave",
+            "memory_map_ref": "s_axi_0"
+          }
+        },
+        "addressing": {
+          "memory_maps": {
+            "s_axi_0": {
+              "address_blocks": {
+                "Reg": {
+                  "base_address": "0",
+                  "range": "64K",
+                  "width": "16",
+                  "usage": "register"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

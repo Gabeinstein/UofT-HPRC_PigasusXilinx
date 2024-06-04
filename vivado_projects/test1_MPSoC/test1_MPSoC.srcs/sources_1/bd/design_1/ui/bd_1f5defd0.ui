@@ -1,0 +1,24 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-227,-62",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace inst c_addsub_0 -pg 1 -lvl 3 -x 600 -y 100 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 3 -x 600 -y 280 -defaultsOSRD
+preplace inst debug_core -pg 1 -lvl 1 -x 80 -y 150 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 2 -x 310 -y 230 -defaultsOSRD
+preplace netloc debug_core_pl_clk0 1 1 2 160 150 500
+preplace netloc vio_0_probe_out0 1 2 1 480 70n
+preplace netloc vio_0_probe_out1 1 2 1 490 90n
+preplace netloc vio_0_probe_out2 1 2 1 470 130n
+preplace netloc c_addsub_0_C_OUT 1 1 3 170 310 460 10 700
+preplace netloc c_addsub_0_S 1 1 3 160 320 500 390 700
+levelinfo -pg 1 0 80 310 600 720
+pagesize -pg 1 -db -bbox -sgen 0 0 720 400
+"
+}
+{
+   "da_board_cnt":"1"
+}

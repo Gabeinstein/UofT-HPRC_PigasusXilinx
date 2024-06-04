@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Jun  3 17:05:55 2024
+# Process ID: 14942
+# Current directory: /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.runs/design_1_axi_gpio_1_0_synth_1
+# Command line: vivado -log design_1_axi_gpio_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_1_0.tcl
+# Log file: /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.runs/design_1_axi_gpio_1_0_synth_1/design_1_axi_gpio_1_0.vds
+# Journal file: /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.runs/design_1_axi_gpio_1_0_synth_1/vivado.jou
+# Running On: agent-32, OS: Linux, CPU Frequency: 2000.000 MHz, CPU Physical cores: 32, Host memory: 135071 MB
+#-----------------------------------------------------------
+source design_1_axi_gpio_1_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2460.871 ; gain = 131.016 ; free physical = 70257 ; free virtual = 219380
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_1_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 35535d6997949df8 to dir: /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.runs/design_1_axi_gpio_1_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.cache/ip/2023.1/3/5/35535d6997949df8/design_1_axi_gpio_0_0_sim_netlist.v to /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.runs/design_1_axi_gpio_1_0_synth_1/design_1_axi_gpio_1_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.cache/ip/2023.1/3/5/35535d6997949df8/design_1_axi_gpio_0_0_sim_netlist.vhdl to /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.runs/design_1_axi_gpio_1_0_synth_1/design_1_axi_gpio_1_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.cache/ip/2023.1/3/5/35535d6997949df8/design_1_axi_gpio_0_0.dcp to /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.runs/design_1_axi_gpio_1_0_synth_1/design_1_axi_gpio_1_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.cache/ip/2023.1/3/5/35535d6997949df8/design_1_axi_gpio_0_0_stub.vhdl to /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.runs/design_1_axi_gpio_1_0_synth_1/design_1_axi_gpio_1_0_stub.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.cache/ip/2023.1/3/5/35535d6997949df8/design_1_axi_gpio_0_0_stub.v to /home/gabriel/Desktop/go_workspace/vivado_projects/axi_interconect/axi_interconect.runs/design_1_axi_gpio_1_0_synth_1/design_1_axi_gpio_1_0_stub.v.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_axi_gpio_1_0, cache-ID = 35535d6997949df8.
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  3 17:06:44 2024...
