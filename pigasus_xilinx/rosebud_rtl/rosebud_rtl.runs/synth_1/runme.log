@@ -1,0 +1,280 @@
+
+*** Running vivado
+    with args -log single_accel_rd_dma.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source single_accel_rd_dma.tcl
+
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source single_accel_rd_dma.tcl -notrace
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2461.238 ; gain = 131.016 ; free physical = 92254 ; free virtual = 242161
+Command: synth_design -top single_accel_rd_dma -part xczu19eg-ffvc1760-2-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 77329
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2889.906 ; gain = 390.707 ; free physical = 91745 ; free virtual = 241656
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'single_accel_rd_dma' [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/lib/Rosebud/rtl/single_accel_rd_dma.v:31]
+INFO: [Synth 8-6157] synthesizing module 'basic_fifo' [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/lib/Rosebud/rtl/basic_fifo.v:31]
+	Parameter DEPTH bound to: 2 - type: integer 
+	Parameter DATA_WIDTH bound to: 134 - type: integer 
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/lib/Rosebud/rtl/basic_fifo.v:68]
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/lib/Rosebud/rtl/basic_fifo.v:71]
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/lib/Rosebud/rtl/basic_fifo.v:89]
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/lib/Rosebud/rtl/basic_fifo.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'basic_fifo' (0#1) [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/lib/Rosebud/rtl/basic_fifo.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'single_accel_rd_dma' (0#1) [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/lib/Rosebud/rtl/single_accel_rd_dma.v:31]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 2957.844 ; gain = 458.645 ; free physical = 91551 ; free virtual = 241466
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2972.688 ; gain = 473.488 ; free physical = 91526 ; free virtual = 241440
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2980.691 ; gain = 481.492 ; free physical = 91527 ; free virtual = 241441
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-6904] The RAM "basic_fifo:/mem_reg" of size (depth=2 x width=134) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2989.598 ; gain = 490.398 ; free physical = 91514 ; free virtual = 241430
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   14 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 2     
+	   2 Input    1 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               33 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 25    
++---RAMs : 
+	              268 Bit	(2 X 134 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input  256 Bit        Muxes := 1     
+	   2 Input  128 Bit        Muxes := 2     
+	   3 Input   33 Bit        Muxes := 1     
+	   2 Input   33 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-6904] The RAM "single_accel_rd_dma/accel_fifo/mem_reg" of size (depth=2 x width=134) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:42 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90706 ; free virtual = 240627
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++--------------------+--------------------+-----------+----------------------+----------------+
+|Module Name         | RTL Object         | Inference | Size (Depth x Width) | Primitives     | 
++--------------------+--------------------+-----------+----------------------+----------------+
+|single_accel_rd_dma | accel_fifo/mem_reg | Implied   | 2 x 134              | RAM32M16 x 10  | 
++--------------------+--------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:43 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90707 ; free virtual = 240627
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++--------------------+--------------------+-----------+----------------------+----------------+
+|Module Name         | RTL Object         | Inference | Size (Depth x Width) | Primitives     | 
++--------------------+--------------------+-----------+----------------------+----------------+
+|single_accel_rd_dma | accel_fifo/mem_reg | Implied   | 2 x 134              | RAM32M16 x 10  | 
++--------------------+--------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:43 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90671 ; free virtual = 240592
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:48 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90531 ; free virtual = 240451
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:48 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90531 ; free virtual = 240451
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:48 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90531 ; free virtual = 240451
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:48 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90531 ; free virtual = 240451
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:48 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90530 ; free virtual = 240451
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:48 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90530 ; free virtual = 240451
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------------+-------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name         | RTL Name                | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------------+-------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|single_accel_rd_dma | mem_rd_offset_rr_reg[3] | 3      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|single_accel_rd_dma | mem_b2_sel_rrr_reg[0]   | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|single_accel_rd_dma | mem_b1_sel_rrr_reg[0]   | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|single_accel_rd_dma | mem_rd_bank_rr_reg      | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|single_accel_rd_dma | mem_rd_empty_rrr_reg[3] | 3      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|single_accel_rd_dma | mem_rd_last_rrr_reg     | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|single_accel_rd_dma | mem_rd_first_rrr_reg    | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++--------------------+-------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |LUT1     |     2|
+|3     |LUT2     |    11|
+|4     |LUT3     |   378|
+|5     |LUT4     |    22|
+|6     |LUT5     |   128|
+|7     |LUT6     |   309|
+|8     |RAM32M16 |    10|
+|9     |SRL16E   |    13|
+|10    |FDRE     |   220|
+|11    |IBUF     |   549|
+|12    |OBUF     |   188|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------+-----------+------+
+|      |Instance     |Module     |Cells |
++------+-------------+-----------+------+
+|1     |top          |           |  1831|
+|2     |  accel_fifo |basic_fifo |    22|
++------+-------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:48 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90530 ; free virtual = 240451
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:48 . Memory (MB): peak = 3963.949 ; gain = 1464.750 ; free physical = 90530 ; free virtual = 240451
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:48 . Memory (MB): peak = 3963.957 ; gain = 1464.750 ; free physical = 90530 ; free virtual = 240450
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3963.957 ; gain = 0.000 ; free physical = 90944 ; free virtual = 240873
+INFO: [Netlist 29-17] Analyzing 560 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'single_accel_rd_dma' is not ideal for floorplanning, since the cellview 'single_accel_rd_dma' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4025.914 ; gain = 0.000 ; free physical = 90760 ; free virtual = 240688
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 560 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  IBUF => IBUF (IBUFCTRL, INBUF): 549 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 10 instances
+
+Synth Design complete | Checksum: 4b1edc31
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:02:29 . Memory (MB): peak = 4025.914 ; gain = 1564.676 ; free physical = 90760 ; free virtual = 240687
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3688.501; main = 3229.260; forked = 520.828
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4935.316; main = 4025.918; forked = 971.363
+INFO: [Common 17-1381] The checkpoint '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/rosebud_rtl/rosebud_rtl.runs/synth_1/single_accel_rd_dma.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file single_accel_rd_dma_utilization_synth.rpt -pb single_accel_rd_dma_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  4 23:51:29 2024...

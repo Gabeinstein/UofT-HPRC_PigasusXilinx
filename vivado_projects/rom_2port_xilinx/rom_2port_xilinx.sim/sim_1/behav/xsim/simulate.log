@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+ERROR: Illegal hex digit 'H' found in data of file "rule_2_pg.mif"
+clock=0, q_a=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,  q_b=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, address_a=0000000000000, address_b=0000000000000
+clock=1, q_a=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,  q_b=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, address_a=0000000000000, address_b=0000000000000
+clock=0, q_a=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,  q_b=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, address_a=0000000000001, address_b=0000000001001
+clock=1, q_a=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,  q_b=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, address_a=0000000000001, address_b=0000000001001
+clock=0, q_a=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,  q_b=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, address_a=0000000000101, address_b=0000000010011
+clock=1, q_a=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,  q_b=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, address_a=0000000000101, address_b=0000000010011
+clock=0, q_a=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,  q_b=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, address_a=0000000000101, address_b=0000000010011
+clock=1, q_a=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,  q_b=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, address_a=0000000000101, address_b=0000000010011
+$finish called at time : 4 ns : File "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/rom_2port_xilinx/rom_2port_xilinx.srcs/sources_1/new/rom_2port_tb.sv" Line 59

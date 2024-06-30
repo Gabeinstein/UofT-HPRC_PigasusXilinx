@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/accel/pigasus_sme/tb/test_pigasus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_pigasus
+WARNING: [VRFC 10-8332] begin/end is required for generate-for in this mode of Verilog [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/accel/pigasus_sme/tb/test_pigasus.v:185]
+ERROR: [VRFC 10-3642] port 'sme_output' must not be declared to be an array [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/accel/pigasus_sme/tb/test_pigasus.v:44]
+ERROR: [VRFC 10-8387] single value range is not allowed in this mode of Verilog [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/accel/pigasus_sme/tb/test_pigasus.v:44]
+ERROR: [VRFC 10-8530] module 'test_pigasus' is ignored due to previous errors [/home/gabriel/Desktop/go_workspace/Rosebud/Rosebud/fpga_src/accel/pigasus_sme/tb/test_pigasus.v:31]
