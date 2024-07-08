@@ -1,4 +1,5 @@
-`include "./src/struct_s.sv"
+`include "struct_s.sv"
+
 module para_Q (
     input logic         clk,
     input logic         rst,

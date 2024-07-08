@@ -1,4 +1,4 @@
-`include "./src/struct_s.sv"
+`include "struct_s.sv"
 
 //Count number of packet and flit
 module stats_cnt (

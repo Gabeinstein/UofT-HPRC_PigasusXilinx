@@ -1,0 +1,48 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../reassembler_service.srcs/sources_1/imports/services" --include "../../../../reassembler_service.srcs/sources_1/imports/src" \
+"../../../../reassembler_service.srcs/sources_1/imports/common_usr/FIFO2.v" \
+"../../../../reassembler_service.srcs/sources_1/new/altera_dcfifo_synchronizer_bundle.v" \
+"../../../../reassembler_service.srcs/sources_1/new/altera_std_synchronizer_nocut.v" \
+"../../../../reassembler_service.srcs/sources_1/new/dc_fifo_core_infill.v" \
+"../../../../reassembler_service.srcs/sources_1/new/dc_fifo_core_infill_mlab.v" \
+"../../../../reassembler_service.srcs/sources_1/new/dc_fifo_wrapper_infill.v" \
+"../../../../reassembler_service.srcs/sources_1/new/dc_fifo_wrapper_infill_mlab.v" \
+"../../../../reassembler_service.srcs/sources_1/new/fifo_core_infill.v" \
+"../../../../reassembler_service.srcs/sources_1/new/fifo_core_infill_mlab.v" \
+"../../../../reassembler_service.srcs/sources_1/new/fifo_wrapper_infill.v" \
+"../../../../reassembler_service.srcs/sources_1/new/fifo_wrapper_infill_mlab.v" \
+
+sv xil_defaultlib  --include "../../../../reassembler_service.srcs/sources_1/imports/services" --include "../../../../reassembler_service.srcs/sources_1/imports/src" \
+"../../../../reassembler_service.srcs/sources_1/imports/services/arb_2_af_service.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/services/arb_2_service.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/common_usr/arb_2_wrapper.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/common_usr/arb_2_wrapper_infill.sv" \
+"../../../../reassembler_service.srcs/sources_1/new/bram_simple2port.sv" \
+"../../../../reassembler_service.srcs/sources_1/new/bram_true2port.sv" \
+"../../../../reassembler_service.srcs/sources_1/new/data_mover.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/services/data_mover_service.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/reassembly/flow_reassembly.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/reassembly/flow_table.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/services/flow_table_client.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/reassembly/flow_table_wrapper.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/reassembly/hash_func.sv" \
+"../../../../reassembler_service.srcs/sources_1/new/hyper_pipe.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/parser/input_comp.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/services/input_comp_client.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/reassembly/linked_list.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/reassembly/para_Q.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/parser/parser.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/services/parser_client.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/common_usr/rr_arbiter_4.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/common_usr/service_converter.sv" \
+"../../../../reassembler_service.srcs/sources_1/new/st_multiplexer.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/common_usr/stats_cnt.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/common_usr/unified_fifo.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/services/unified_fifo_service.sv" \
+"../../../../reassembler_service.srcs/sources_1/imports/services/reassembler_service.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

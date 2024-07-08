@@ -1,0 +1,421 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Jul  4 14:46:09 2024
+# Process ID: 100063
+# Current directory: /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/bram_true2port/bram_true2port.srcs/sources_1/new
+# Command line: vivado
+# Log file: /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/bram_true2port/bram_true2port.srcs/sources_1/new/vivado.log
+# Journal file: /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/bram_true2port/bram_true2port.srcs/sources_1/new/vivado.jou
+# Running On: agent-32, OS: Linux, CPU Frequency: 1200.000 MHz, CPU Physical cores: 32, Host memory: 135071 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /mnt/shares/tools/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project unified_fifo /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo -part xczu19eg-ffvc1760-2-i
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/mnt/shares/tools/Xilinx/Vivado/2023.1/data/ip'.
+create_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 9153.195 ; gain = 151.184 ; free physical = 84712 ; free virtual = 238631
+set_property board_part fidus.com:sidewinder100:part0:1.0 [current_project]
+file mkdir /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new
+close [ open /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer.v w ]
+add_files /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer_tb.v w ]
+add_files /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer_tb.v
+update_compile_order -fileset sources_1
+set_property top FIFObuffer_tb [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'FIFObuffer_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/mnt/shares/tools/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'FIFObuffer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj FIFObuffer_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFObuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFObuffer_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FIFObuffer_tb_behav xil_defaultlib.FIFObuffer_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /mnt/shares/tools/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FIFObuffer_tb_behav xil_defaultlib.FIFObuffer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FIFObuffer
+Compiling module xil_defaultlib.FIFObuffer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FIFObuffer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FIFObuffer_tb_behav -key {Behavioral:sim_1:Functional:FIFObuffer_tb} -tclbatch {FIFObuffer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source FIFObuffer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 310 ns : File "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer_tb.v" Line 151
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 9500.723 ; gain = 74.852 ; free physical = 84417 ; free virtual = 238346
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FIFObuffer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 9500.723 ; gain = 90.297 ; free physical = 84417 ; free virtual = 238346
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'FIFObuffer_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/mnt/shares/tools/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'FIFObuffer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj FIFObuffer_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFObuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFObuffer_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FIFObuffer_tb_behav xil_defaultlib.FIFObuffer_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /mnt/shares/tools/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FIFObuffer_tb_behav xil_defaultlib.FIFObuffer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FIFObuffer
+Compiling module xil_defaultlib.FIFObuffer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FIFObuffer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FIFObuffer_tb_behav -key {Behavioral:sim_1:Functional:FIFObuffer_tb} -tclbatch {FIFObuffer_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source FIFObuffer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 370 ns : File "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer_tb.v" Line 156
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FIFObuffer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 9516.590 ; gain = 11.996 ; free physical = 84538 ; free virtual = 238473
+import_files -norecurse {/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/reassembler_service/reassembler_service/reassembler_service.srcs/sources_1/imports/common_usr/unified_fifo.sv /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/reassembler_service/reassembler_service/reassembler_service.srcs/sources_1/new/fifo_wrapper_infill.v /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/reassembler_service/reassembler_service/reassembler_service.srcs/sources_1/new/fifo_core_infill.v}
+update_compile_order -fileset sources_1
+set_property top unified_fifo [current_fileset]
+update_compile_order -fileset sources_1
+synth_design -top unified_fifo -part xczu19eg-ffvc1760-2-i -lint 
+Command: synth_design -top unified_fifo -part xczu19eg-ffvc1760-2-i -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Device 21-403] Loading part xczu19eg-ffvc1760-2-i
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 10986.617 ; gain = 252.824 ; free physical = 80817 ; free virtual = 234815
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'unified_fifo' [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/imports/common_usr/unified_fifo.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'fifo_wrapper_infill' [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_wrapper_infill.v:6]
+	Parameter SYMBOLS_PER_BEAT bound to: 64 - type: integer 
+	Parameter BITS_PER_SYMBOL bound to: 8 - type: integer 
+	Parameter FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter USE_PACKETS bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fifo_core_infill' [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v:21]
+	Parameter SYMBOLS_PER_BEAT bound to: 64 - type: integer 
+	Parameter BITS_PER_SYMBOL bound to: 8 - type: integer 
+	Parameter FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter CHANNEL_WIDTH bound to: 0 - type: integer 
+	Parameter ERROR_WIDTH bound to: 0 - type: integer 
+	Parameter USE_PACKETS bound to: 1 - type: integer 
+	Parameter USE_FILL_LEVEL bound to: 1 - type: integer 
+	Parameter USE_STORE_FORWARD bound to: 0 - type: integer 
+	Parameter USE_ALMOST_FULL_IF bound to: 0 - type: integer 
+	Parameter USE_ALMOST_EMPTY_IF bound to: 0 - type: integer 
+	Parameter SYNC_RESET bound to: 0 - type: integer 
+	Parameter EMPTY_LATENCY bound to: 3 - type: integer 
+	Parameter USE_MEMORY_BLOCKS bound to: 1 - type: integer 
+	Parameter EMPTY_WIDTH bound to: 1 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element internal_sclr_reg was removed.  [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v:175]
+WARNING: [Synth 8-3848] Net almost_full_data in module/entity fifo_core_infill does not have driver. [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v:91]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_core_infill' (1#1) [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_wrapper_infill' (2#1) [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_wrapper_infill.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'unified_fifo' (3#1) [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/imports/common_usr/unified_fifo.sv:9]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 11080.367 ; gain = 346.574 ; free physical = 80689 ; free virtual = 234692
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (lin64) Build 3865809 Sun May  7 15:04:56 MDT 2023
+| Date         : Thu Jul  4 15:53:15 2024
+| Host         : agent-32 running 64-bit Ubuntu 16.04.7 LTS
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+--------------+----------+
+| Rule ID   | # Violations | # Waived |
++-----------+--------------+----------+
+| ASSIGN-5  | 23           | 0        |
+| ASSIGN-6  | 2            | 0        |
+| ASSIGN-9  | 1            | 0        |
+| ASSIGN-10 | 4            | 0        |
++-----------+--------------+----------+
+
+
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'almost_empty_threshold' are not set. First unset bit index is 0. 
+RTL Name 'almost_empty_threshold', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 146.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'almost_full_threshold' are not set. First unset bit index is 0. 
+RTL Name 'almost_full_threshold', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 145.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'cut_through_threshold' are not set. First unset bit index is 0. 
+RTL Name 'cut_through_threshold', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 147.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'drop_on_error_en' declared and are not set.
+RTL Name 'drop_on_error_en', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 149.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'error_in_pkt' declared and are not set.
+RTL Name 'error_in_pkt', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 150.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'fifo_fill_level_lt_cut_through_threshold' declared and are not set.
+RTL Name 'fifo_fill_level_lt_cut_through_threshold', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 169.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'fifo_too_small' declared and are not set.
+RTL Name 'fifo_too_small', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 166.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'fifo_too_small_r' declared and are not set.
+RTL Name 'fifo_too_small_r', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 153.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'in_pkt_eop_arrive' declared and are not set.
+RTL Name 'in_pkt_eop_arrive', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 161.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'in_pkt_error' declared and are not set.
+RTL Name 'in_pkt_error', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 164.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'in_pkt_start' declared and are not set.
+RTL Name 'in_pkt_start', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 163.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'max_fifo_size' are not set. First unset bit index is 0. 
+RTL Name 'max_fifo_size', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 168.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'mem_used' are not set. First unset bit index is 0. 
+RTL Name 'mem_used', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 114.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'out_pkt_leave' declared and are not set.
+RTL Name 'out_pkt_leave', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 162.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'out_pkt_sop_leave' declared and are not set.
+RTL Name 'out_pkt_sop_leave', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 167.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'pkt_cnt' are not set. First unset bit index is 0. 
+RTL Name 'pkt_cnt', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 148.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'pkt_cnt_eq_one' declared and are not set.
+RTL Name 'pkt_cnt_eq_one', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 155.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'pkt_cnt_eq_zero' declared and are not set.
+RTL Name 'pkt_cnt_eq_zero', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 154.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'pkt_has_started' declared and are not set.
+RTL Name 'pkt_has_started', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 151.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'pkt_mode' declared and are not set.
+RTL Name 'pkt_mode', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 158.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'sop_has_left_fifo' declared and are not set.
+RTL Name 'sop_has_left_fifo', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 152.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'wait_for_pkt' declared and are not set.
+RTL Name 'wait_for_pkt', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 159.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'wait_for_threshold' declared and are not set.
+RTL Name 'wait_for_threshold', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 157.
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'gen_blk16.depth32' are not read. First unread bit index is 10. 
+RTL Name 'gen_blk16.depth32', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 740.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'internal_sclr' was assigned but not read. 
+RTL Name 'internal_sclr', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 172.
+WARNING: [Synth 37-101] [ASSIGN-9]All bits in IO 'almost_full_data' are not set. First unset bit index is 0. 
+RTL Name 'almost_full_data', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 91.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'csr_write' are not read. First unused bit index is 0. 
+RTL Name 'csr_write', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 86.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'csr_writedata' are not read. First unused bit index is 0. 
+RTL Name 'csr_writedata', Hierarchy 'fifo_core_infill', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v', Line 88.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'out_clk' are not read. First unused bit index is 0. 
+RTL Name 'out_clk', Hierarchy 'unified_fifo', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/imports/common_usr/unified_fifo.sv', Line 23.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'out_reset' are not read. First unused bit index is 0. 
+RTL Name 'out_reset', Hierarchy 'unified_fifo', File '/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/imports/common_usr/unified_fifo.sv', Line 24.
+INFO: [Synth 37-85] Total of 30 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 11080.367 ; gain = 0.000 ; free physical = 80876 ; free virtual = 234879
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 2 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 11169.023 ; gain = 0.000 ; free physical = 80857 ; free virtual = 234860
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:02:16 . Memory (MB): peak = 11169.023 ; gain = 1546.398 ; free physical = 80859 ; free virtual = 234863
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] 
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xczu19eg-ffvc1760-2-i
+Top: unified_fifo
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 11169.023 ; gain = 0.000 ; free physical = 80680 ; free virtual = 234684
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'unified_fifo' [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/imports/common_usr/unified_fifo.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'fifo_wrapper_infill' [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_wrapper_infill.v:6]
+	Parameter SYMBOLS_PER_BEAT bound to: 64 - type: integer 
+	Parameter BITS_PER_SYMBOL bound to: 8 - type: integer 
+	Parameter FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter USE_PACKETS bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fifo_core_infill' [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v:21]
+	Parameter SYMBOLS_PER_BEAT bound to: 64 - type: integer 
+	Parameter BITS_PER_SYMBOL bound to: 8 - type: integer 
+	Parameter FIFO_DEPTH bound to: 512 - type: integer 
+	Parameter CHANNEL_WIDTH bound to: 0 - type: integer 
+	Parameter ERROR_WIDTH bound to: 0 - type: integer 
+	Parameter USE_PACKETS bound to: 1 - type: integer 
+	Parameter USE_FILL_LEVEL bound to: 1 - type: integer 
+	Parameter USE_STORE_FORWARD bound to: 0 - type: integer 
+	Parameter USE_ALMOST_FULL_IF bound to: 0 - type: integer 
+	Parameter USE_ALMOST_EMPTY_IF bound to: 0 - type: integer 
+	Parameter SYNC_RESET bound to: 0 - type: integer 
+	Parameter EMPTY_LATENCY bound to: 3 - type: integer 
+	Parameter USE_MEMORY_BLOCKS bound to: 1 - type: integer 
+	Parameter EMPTY_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_core_infill' (0#1) [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_wrapper_infill' (0#1) [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_wrapper_infill.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'unified_fifo' (0#1) [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/imports/common_usr/unified_fifo.sv:9]
+WARNING: [Synth 8-6014] Unused sequential element internal_sclr_reg was removed.  [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v:175]
+WARNING: [Synth 8-3848] Net almost_full_data in module/entity fifo_core_infill does not have driver. [/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v:91]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 11169.023 ; gain = 0.000 ; free physical = 80864 ; free virtual = 234868
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 11169.023 ; gain = 0.000 ; free physical = 80863 ; free virtual = 234867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 11169.023 ; gain = 0.000 ; free physical = 80863 ; free virtual = 234867
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 11169.023 ; gain = 0.000 ; free physical = 80863 ; free virtual = 234867
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 11201.023 ; gain = 0.000 ; free physical = 80859 ; free virtual = 234863
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 11322.906 ; gain = 153.883 ; free physical = 80718 ; free virtual = 234722
+8 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 11322.906 ; gain = 153.883 ; free physical = 80718 ; free virtual = 234722
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] 
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] 

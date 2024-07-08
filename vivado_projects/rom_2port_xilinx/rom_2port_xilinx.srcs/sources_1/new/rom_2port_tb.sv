@@ -31,7 +31,7 @@ module rom_2port_tb;
         .DWIDTH(36),
         .AWIDTH(13),
         .MEM_SIZE(8192),
-        .INIT_FILE("rule_2_pg.mif")
+        .INIT_FILE("rule_2_pg.mem")
     )rule2pg_table_0_1(
     .q_a       (q_a),
     .q_b       (q_b),

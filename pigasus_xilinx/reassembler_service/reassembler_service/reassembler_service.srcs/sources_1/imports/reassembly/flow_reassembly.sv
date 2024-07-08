@@ -1,4 +1,4 @@
-`include "./src/struct_s.sv"
+`include "struct_s.sv"
 //`define DEBUG
 module flow_reassembly(
     input   logic                   clk,

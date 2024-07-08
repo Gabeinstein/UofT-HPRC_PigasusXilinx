@@ -1,4 +1,4 @@
-`include "./src/struct_s.sv"
+`include "struct_s.sv"
 
 // Parse the ethnet frame for the kernel.
 // Convert Big Endian to Little Endian.

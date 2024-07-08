@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Jul  4 14:46:09 2024
+# Process ID: 100063
+# Current directory: /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/bram_true2port/bram_true2port.srcs/sources_1/new
+# Command line: vivado
+# Log file: /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/bram_true2port/bram_true2port.srcs/sources_1/new/vivado.log
+# Journal file: /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/bram_true2port/bram_true2port.srcs/sources_1/new/vivado.jou
+# Running On: agent-32, OS: Linux, CPU Frequency: 1200.000 MHz, CPU Physical cores: 32, Host memory: 135071 MB
+#-----------------------------------------------------------
+start_gui
+create_project unified_fifo /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo -part xczu19eg-ffvc1760-2-i
+set_property board_part fidus.com:sidewinder100:part0:1.0 [current_project]
+file mkdir /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new
+close [ open /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer.v w ]
+add_files /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer_tb.v w ]
+add_files /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/unified_fifo/unified_fifo.srcs/sources_1/new/FIFObuffer_tb.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FIFObuffer_tb [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source FIFObuffer_tb.tcl
+close_sim
+launch_simulation
+source FIFObuffer_tb.tcl
+import_files -norecurse {/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/reassembler_service/reassembler_service/reassembler_service.srcs/sources_1/imports/common_usr/unified_fifo.sv /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/reassembler_service/reassembler_service/reassembler_service.srcs/sources_1/new/fifo_wrapper_infill.v /home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/reassembler_service/reassembler_service/reassembler_service.srcs/sources_1/new/fifo_core_infill.v}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top unified_fifo [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -top unified_fifo -part xczu19eg-ffvc1760-2-i -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1

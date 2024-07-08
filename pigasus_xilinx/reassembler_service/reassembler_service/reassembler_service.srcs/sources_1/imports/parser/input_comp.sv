@@ -1,4 +1,4 @@
-`include "./src/struct_s.sv"
+`include "struct_s.sv"
 module input_comp (
     input   logic                       clk,
     input   logic                       rst,

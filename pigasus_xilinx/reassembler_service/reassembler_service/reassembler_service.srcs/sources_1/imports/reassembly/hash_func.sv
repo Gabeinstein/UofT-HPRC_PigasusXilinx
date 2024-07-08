@@ -1,4 +1,4 @@
-`include "./src/struct_s.sv"
+`include "struct_s.sv"
 
 // Pipelined RTL implementation of the Lookup3 hash:
 // https://burtleburtle.net/bob/c/lookup3.c

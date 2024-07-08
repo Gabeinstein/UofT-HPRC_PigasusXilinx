@@ -8,7 +8,7 @@ module rom_2port #(
     parameter DWIDTH = 16,
     parameter AWIDTH = 15,
     parameter MEM_SIZE = 32768,
-    parameter INIT_FILE = "./hashtable0.mif"
+    parameter INIT_FILE = "hashtable0.mem"
     )(
     input logic [AWIDTH - 1:0] address_a,
     input logic [AWIDTH - 1:0] address_b,

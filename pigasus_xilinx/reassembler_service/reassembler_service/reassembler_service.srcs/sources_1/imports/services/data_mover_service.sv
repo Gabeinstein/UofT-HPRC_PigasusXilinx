@@ -1,6 +1,6 @@
 `include "active_msg.vh"
 `include "channel_if.vh"
-`include "./src/struct_s.sv"
+`include "struct_s.sv"
 
 module data_mover_service (
     input logic Clk, 

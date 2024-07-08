@@ -1,6 +1,6 @@
 `include "channel_if.vh"
 `include "active_msg.vh"
-`include "./src/struct_s.sv"
+`include "struct_s.sv"
 
 module reassembler_service (
     input logic Clk, 

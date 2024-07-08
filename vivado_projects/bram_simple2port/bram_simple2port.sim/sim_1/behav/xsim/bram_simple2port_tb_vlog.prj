@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../bram_simple2port.srcs/sources_1/new/bram_simple2port.sv" \
+"../../../../bram_simple2port.srcs/sources_1/new/bram_simple2port_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
