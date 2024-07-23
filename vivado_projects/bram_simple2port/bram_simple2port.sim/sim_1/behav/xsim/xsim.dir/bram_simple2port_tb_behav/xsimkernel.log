@@ -2,3 +2,6 @@ Running: xsim.dir/bram_simple2port_tb_behav/xsimk -simmode gui -wdb bram_simple2
 Design successfully loaded
 Design Loading Memory Usage: 33504 KB (Peak: 33504 KB)
 Design Loading CPU Usage: 50 ms
+Simulation completed
+Simulation Memory Usage: 115500 KB (Peak: 172772 KB)
+Simulation CPU Usage: 60 ms

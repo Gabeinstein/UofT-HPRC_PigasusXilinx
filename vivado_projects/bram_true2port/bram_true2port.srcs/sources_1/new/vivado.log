@@ -419,3 +419,7 @@ synth_design completed successfully
 synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 11322.906 ; gain = 153.883 ; free physical = 80718 ; free virtual = 234722
 INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] 
 INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul  8 13:22:21 2024...

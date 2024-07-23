@@ -43,3 +43,4 @@ set_property source_mgmt_mode All [current_project]
 update_compile_order -fileset sources_1
 synth_design -top unified_fifo -part xczu19eg-ffvc1760-2-i -lint 
 synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim

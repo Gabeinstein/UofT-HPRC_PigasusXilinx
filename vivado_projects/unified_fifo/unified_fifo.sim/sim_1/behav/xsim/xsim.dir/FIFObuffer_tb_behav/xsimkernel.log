@@ -2,3 +2,6 @@ Running: xsim.dir/FIFObuffer_tb_behav/xsimk -simmode gui -wdb FIFObuffer_tb_beha
 Design successfully loaded
 Design Loading Memory Usage: 33496 KB (Peak: 33496 KB)
 Design Loading CPU Usage: 60 ms
+Simulation completed
+Simulation Memory Usage: 115232 KB (Peak: 172764 KB)
+Simulation CPU Usage: 70 ms

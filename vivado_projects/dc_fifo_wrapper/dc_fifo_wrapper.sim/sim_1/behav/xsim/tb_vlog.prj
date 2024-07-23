@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../dc_fifo_wrapper.srcs/sources_1/imports/sources_1/imports/new/altera_dcfifo_synchronizer_bundle.v" \
+"../../../../dc_fifo_wrapper.srcs/sources_1/imports/sources_1/imports/new/altera_std_synchronizer_nocut.v" \
+"../../../../dc_fifo_wrapper.srcs/sources_1/imports/sources_1/new/dc_fifo_core.v" \
+"../../../../dc_fifo_wrapper.srcs/sources_1/imports/sources_1/new/dc_fifo_wrapper.v" \
+
+sv xil_defaultlib  \
+"../../../../dc_fifo_wrapper.srcs/sources_1/new/tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

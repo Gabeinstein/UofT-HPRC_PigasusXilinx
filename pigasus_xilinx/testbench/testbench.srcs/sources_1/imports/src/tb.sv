@@ -308,8 +308,8 @@ begin
     //$display("arr 0x%x", arr[addr]);
     if (cnt == stop) begin
         $display("STOP READING!");
-        $display("Done!");
-        $finish;
+        //$display("Done!");
+       // $finish;
     end
 end
 

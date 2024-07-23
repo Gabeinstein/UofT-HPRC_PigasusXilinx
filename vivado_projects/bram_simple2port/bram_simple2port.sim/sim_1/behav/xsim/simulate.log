@@ -1,0 +1,23 @@
+Time resolution is 1 ps
+clock=0, q=xxxxxxxx, wraddress=000000000000, rdaddress=000000000000, wren=0, rden=0, data=10101111
+clock=1, q=xxxxxxxx, wraddress=000000000000, rdaddress=000000000000, wren=0, rden=0, data=10101111
+clock=0, q=xxxxxxxx, wraddress=000000000000, rdaddress=000000000000, wren=0, rden=0, data=10101111
+clock=1, q=xxxxxxxx, wraddress=000000000000, rdaddress=000000000000, wren=0, rden=0, data=10101111
+clock=0, q=xxxxxxxx, wraddress=000000011010, rdaddress=000000000000, wren=1, rden=0, data=10101111
+clock=1, q=xxxxxxxx, wraddress=000000011010, rdaddress=000000000000, wren=1, rden=0, data=10101111
+clock=0, q=xxxxxxxx, wraddress=000000011010, rdaddress=000000000000, wren=1, rden=0, data=10101111
+clock=1, q=xxxxxxxx, wraddress=000000011010, rdaddress=000000000000, wren=1, rden=0, data=10101111
+clock=0, q=xxxxxxxx, wraddress=000000000000, rdaddress=000000011010, wren=0, rden=1, data=00000000
+clock=1, q=xxxxxxxx, wraddress=000000000000, rdaddress=000000011010, wren=0, rden=1, data=00000000
+clock=1, q=10101111, wraddress=000000000000, rdaddress=000000011010, wren=0, rden=1, data=00000000
+clock=0, q=10101111, wraddress=000000000000, rdaddress=000000011010, wren=0, rden=1, data=00000000
+clock=1, q=10101111, wraddress=000000000000, rdaddress=000000011010, wren=0, rden=1, data=00000000
+clock=0, q=10101111, wraddress=000000000000, rdaddress=000000000000, wren=1, rden=1, data=11111111
+clock=1, q=10101111, wraddress=000000000000, rdaddress=000000000000, wren=1, rden=1, data=11111111
+clock=1, q=xxxxxxxx, wraddress=000000000000, rdaddress=000000000000, wren=1, rden=1, data=11111111
+clock=0, q=xxxxxxxx, wraddress=000000000000, rdaddress=000000000000, wren=1, rden=1, data=11111111
+clock=1, q=xxxxxxxx, wraddress=000000000000, rdaddress=000000000000, wren=1, rden=1, data=11111111
+clock=1, q=11111111, wraddress=000000000000, rdaddress=000000000000, wren=1, rden=1, data=11111111
+clock=0, q=11111111, wraddress=000000000000, rdaddress=000000000000, wren=1, rden=1, data=11111111
+clock=1, q=11111111, wraddress=000000000000, rdaddress=000000000000, wren=1, rden=1, data=11111111
+$finish called at time : 9 ns : File "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/bram_simple2port/bram_simple2port.srcs/sources_1/new/bram_simple2port_tb.sv" Line 82

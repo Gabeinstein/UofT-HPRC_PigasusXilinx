@@ -1,0 +1,10 @@
+0.7
+2020.2
+May  7 2023
+15:10:42
+/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/dc_fifo_wrapper/dc_fifo_wrapper.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,uvm,,,,,,
+/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/dc_fifo_wrapper/dc_fifo_wrapper.srcs/sources_1/imports/sources_1/imports/new/altera_dcfifo_synchronizer_bundle.v,1720124469,verilog,,/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/dc_fifo_wrapper/dc_fifo_wrapper.srcs/sources_1/imports/sources_1/imports/new/altera_std_synchronizer_nocut.v,,altera_dcfifo_synchronizer_bundle,,uvm,,,,,,
+/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/dc_fifo_wrapper/dc_fifo_wrapper.srcs/sources_1/imports/sources_1/imports/new/altera_std_synchronizer_nocut.v,1720124540,verilog,,/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/dc_fifo_wrapper/dc_fifo_wrapper.srcs/sources_1/imports/sources_1/new/dc_fifo_core.v,,altera_std_synchronizer_nocut,,uvm,,,,,,
+/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/dc_fifo_wrapper/dc_fifo_wrapper.srcs/sources_1/imports/sources_1/new/dc_fifo_core.v,1721265698,verilog,,/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/dc_fifo_wrapper/dc_fifo_wrapper.srcs/sources_1/imports/sources_1/new/dc_fifo_wrapper.v,,dc_fifo_core,,uvm,,,,,,
+/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/dc_fifo_wrapper/dc_fifo_wrapper.srcs/sources_1/imports/sources_1/new/dc_fifo_wrapper.v,1721265617,verilog,,/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/dc_fifo_wrapper/dc_fifo_wrapper.srcs/sources_1/new/tb.v,,dc_fifo_wrapper,,uvm,,,,,,
+/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/vivado_projects/dc_fifo_wrapper/dc_fifo_wrapper.srcs/sources_1/new/tb.sv,1721412341,systemVerilog,,,,tb,,uvm,,,,,,
