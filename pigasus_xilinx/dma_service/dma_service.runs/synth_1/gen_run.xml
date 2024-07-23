@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xczu19eg-ffvc1760-2-i" LaunchTime="1721061692">
+  <File Type="VDS-TIMINGSUMMARY" Name="dma_service_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="dma_service.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="dma_service_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="dma_service_utilization_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="dma_service_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="dma_service.tcl"/>
+  <File Type="REPORTS-TCL" Name="dma_service_reports.tcl"/>
+  <File Type="RDS-RDS" Name="dma_service.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="dma_service_drc_synth.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/common_usr/FIFO2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../pigasus/pigasus-main/pigasus/hardware/rtl_sim/src/common_usr/FIFO2.v"/>
+        <Attr Name="ImportTime" Val="1661403990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/altera_dcfifo_synchronizer_bundle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/sources_1/imports/new/altera_dcfifo_synchronizer_bundle.v"/>
+        <Attr Name="ImportTime" Val="1720124469"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/altera_std_synchronizer_nocut.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/sources_1/imports/new/altera_std_synchronizer_nocut.v"/>
+        <Attr Name="ImportTime" Val="1720124540"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/dc_fifo_core_infill.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/sources_1/imports/new/dc_fifo_core_infill.v"/>
+        <Attr Name="ImportTime" Val="1720116171"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/dc_fifo_core_infill_mlab.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/sources_1/imports/new/dc_fifo_core_infill_mlab.v"/>
+        <Attr Name="ImportTime" Val="1720124726"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/dc_fifo_wrapper_infill.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/sources_1/imports/new/dc_fifo_wrapper_infill.v"/>
+        <Attr Name="ImportTime" Val="1720116084"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/dc_fifo_wrapper_infill_mlab.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/sources_1/imports/new/dc_fifo_wrapper_infill_mlab.v"/>
+        <Attr Name="ImportTime" Val="1720124667"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fifo_core_infill.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/new/fifo_core_infill.v"/>
+        <Attr Name="ImportTime" Val="1720055121"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fifo_core_infill_mlab.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/new/fifo_core_infill_mlab.v"/>
+        <Attr Name="ImportTime" Val="1720123168"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fifo_pkt_core_infill.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../unified_pkt_fifo_service/unified_pkt_fifo_service.srcs/sources_1/new/fifo_pkt_core_infill.v"/>
+        <Attr Name="ImportTime" Val="1720463378"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fifo_pkt_core_infill_mlab.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../unified_pkt_fifo_service/unified_pkt_fifo_service.srcs/sources_1/new/fifo_pkt_core_infill_mlab.v"/>
+        <Attr Name="ImportTime" Val="1720463415"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fifo_pkt_wrapper_infill.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../unified_pkt_fifo_service/unified_pkt_fifo_service.srcs/sources_1/new/fifo_pkt_wrapper_infill.v"/>
+        <Attr Name="ImportTime" Val="1720463194"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fifo_pkt_wrapper_infill_mlab.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../unified_pkt_fifo_service/unified_pkt_fifo_service.srcs/sources_1/new/fifo_pkt_wrapper_infill_mlab.v"/>
+        <Attr Name="ImportTime" Val="1720463280"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fifo_wrapper_infill.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/new/fifo_wrapper_infill.v"/>
+        <Attr Name="ImportTime" Val="1720054925"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fifo_wrapper_infill_mlab.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/new/fifo_wrapper_infill_mlab.v"/>
+        <Attr Name="ImportTime" Val="1720123087"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/services/active_msg.vh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../pigasus/pigasus-main/pigasus/hardware/rtl_sim/src/services/active_msg.vh"/>
+        <Attr Name="ImportTime" Val="1661403990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/services/channel_if.vh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../pigasus/pigasus-main/pigasus/hardware/rtl_sim/src/services/channel_if.vh"/>
+        <Attr Name="ImportTime" Val="1661403990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/struct_s.sv">
+      <FileInfo SFType="VHeader">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../pigasus/pigasus-main/pigasus/hardware/rtl_sim/src/struct_s.sv"/>
+        <Attr Name="ImportTime" Val="1661403990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pdu_data_mover.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pdu_gen.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/common_usr/service_converter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../pigasus/pigasus-main/pigasus/hardware/rtl_sim/src/common_usr/service_converter.sv"/>
+        <Attr Name="ImportTime" Val="1661403990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/common_usr/unified_fifo.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../channel_fifo_service/channel_fifo_service.srcs/sources_1/imports/common_usr/unified_fifo.sv"/>
+        <Attr Name="ImportTime" Val="1661403990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/unified_pkt_fifo.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../unified_pkt_fifo_service/unified_pkt_fifo_service.srcs/sources_1/new/unified_pkt_fifo.sv"/>
+        <Attr Name="ImportTime" Val="1720463001"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/services/dma_service.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../pigasus/pigasus-main/pigasus/hardware/rtl_sim/src/services/dma_service.sv"/>
+        <Attr Name="ImportTime" Val="1661403990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="dma_service"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
