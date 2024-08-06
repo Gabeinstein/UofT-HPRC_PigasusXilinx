@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1 ns/10 ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -49,30 +49,30 @@ module tb;
     reg out_endofpacket;
     reg [5:0] out_empty;
     
+    localparam period_rx = 2.56;
+    localparam period_user = 5;
+    
     initial in_clk = 1;
     initial in_reset_n = 0;
     initial out_clk = 1;
     initial out_reset_n = 0;
     initial in_valid = 1;
-    initial in_endofpacket = 0;
     initial in_empty = 6'b0;
-    initial in_data = 64'b0;
+    initial in_data = 64'b1;
+    initial out_ready = 1;
       
-    always #(10) in_clk = ~in_clk;
-    always #(20) out_clk = ~out_clk;
-    
-    always #(10*4) in_data <= in_data + 1; 
+    always #(period_rx) in_clk = ~in_clk;
+    always #(period_user) out_clk = ~out_clk;
+    always #(period_rx*10) in_data <= in_data + 1; 
+    always #(period_rx*10*9) in_valid <= ~in_valid; 
     
     always begin
         in_startofpacket = 1;
         in_endofpacket = 0;
-        #10;
+        #50;
         in_startofpacket = 0;
-        #(10);
         in_endofpacket = 1;
-        #10;
-        in_endofpacket = 0;
-        #10;
+        #50;
     end
     
     initial begin

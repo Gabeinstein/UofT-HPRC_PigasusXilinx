@@ -1,0 +1,217 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/common_usr/FIFO2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO2
+INFO: [VRFC 10-311] analyzing module FIFO2_Reg
+INFO: [VRFC 10-311] analyzing module FIFO2_LUTRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/altera_dcfifo_synchronizer_bundle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module altera_dcfifo_synchronizer_bundle
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/altera_std_synchronizer_nocut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module altera_std_synchronizer_nocut
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/dc_fifo_core_infill.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_fifo_core_infill
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/dc_fifo_core_infill_mlab.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_fifo_core_infill_mlab
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/dc_fifo_wrapper_infill.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_fifo_wrapper_infill
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/dc_fifo_wrapper_infill_mlab.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_fifo_wrapper_infill_mlab
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/fifo_core_infill.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_core_infill
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/fifo_core_infill_mlab.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_core_infill_mlab
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/fifo_pkt_core_infill.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_pkt_core_infill
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/fifo_pkt_core_infill_mlab.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_pkt_core_infill_mlab
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/fifo_pkt_wrapper_infill.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_pkt_wrapper_infill
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/fifo_pkt_wrapper_infill_mlab.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_pkt_wrapper_infill_mlab
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/fifo_wrapper_infill.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_wrapper_infill
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/fifo_wrapper_infill_mlab.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_wrapper_infill_mlab
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/acc_hash.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module acc_hash
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/arb_2_af_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arb_2_af_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/arb_2_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arb_2_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/common_usr/arb_2_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arb_2_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/common_usr/arb_2_wrapper_infill.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arb_2_wrapper_infill
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/fast_pattern_matcher/backend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module backend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/bram_simple2port.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram_simple2port
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/bram_true2port.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram_true2port
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/services/bypass_back_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bypass_back_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/services/bypass_front_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bypass_front_service
+INFO: [VRFC 10-311] analyzing module bypass_front_service_round_robin
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/common_usr/bypass_nf_back.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bypass_nf_back
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/common_usr/bypass_nf_front.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bypass_nf_front
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/non_fast_pattern_matcher/cal_fp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cal_fp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/common_usr/channel_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module channel_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/services/channel_fifo_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module channel_fifo_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/data_mover.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/data_mover_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/dma_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dma_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/ethernet_service_multi_out.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ethernet_service_multi_out
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/services/fast_pm_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fast_pm_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/fast_pattern_matcher/first_filter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module first_filter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/reassembly/flow_reassembly.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flow_reassembly
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/reassembly/flow_table.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flow_table
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/flow_table_client.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flow_table_client
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/reassembly/flow_table_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flow_table_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/common_usr/fork_2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fork_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/services/fork_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fork_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/fast_pattern_matcher/frontend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frontend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/reassembly/hash_func.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hash_func
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/hashtable.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hashtable
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/fast_pattern_matcher/hashtable_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hashtable_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/hyper_pipe.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hyper_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/common_usr/hyper_pipe_rst.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hyper_pipe_rst
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/parser/input_comp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_comp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/input_comp_client.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_comp_client
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/interface_debugger.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module interface_debugger
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/reassembly/linked_list.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module linked_list
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/mul_hash.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_hash
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/non_fast_pattern_matcher/nf_fp_matcher.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nf_fp_matcher
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/non_fast_pattern_matcher/nf_reduction_2t1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nf_reduction_2t1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/non_fast_pattern_matcher/nf_rule_reduction.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nf_rule_reduction
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/services/non_fast_pattern_client.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module non_fast_pattern_client
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/non_fast_pattern_matcher/non_fast_pattern_ht.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module non_fast_pattern_ht
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/non_fast_pattern_matcher/non_fast_pattern_shiftor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module non_fast_pattern_shiftor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/non_fast_pattern_matcher/non_fast_pattern_sm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module non_fast_pattern_sm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/non_fast_pattern_matcher/non_fast_pattern_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module non_fast_pattern_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/imports/services/non_fast_pm_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module non_fast_pm_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/reassembly/para_Q.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module para_Q
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/parser/parser.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parser
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/parser_client.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parser_client
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/pdu_data_mover.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pdu_data_mover
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/pdu_gen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pdu_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/pkt_almost_full.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pkt_almost_full
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/pkt_almost_full_nogap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pkt_almost_full_nogap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/pkt_data_shift.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pkt_data_shift
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/pkt_mux_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ethernet_mux_service
+INFO: [VRFC 10-311] analyzing module pkt_mux_service
+INFO: [VRFC 10-311] analyzing module pkt_mux_service_3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/port_group/port_group.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module port_group
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/services/port_group_client.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module port_group_client
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/services/port_group_matcher_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module port_group_matcher_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/port_group/port_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module port_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/reassembler_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reassembler_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/fast_pattern_matcher/reduction_2t1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reduction_2t1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/rom_1port_mlab.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_1port_mlab
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/rom_2port.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom_2port
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/rr_arbiter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rr_arbiter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/common_usr/rr_arbiter_4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rr_arbiter_4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/common_usr/rule_depacker_512_128.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rule_depacker_512_128
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/rule_packer_128_512.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rule_packer_128_512
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/common_usr/rule_packer_32_512.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rule_packer_32_512
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/port_group/rule_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rule_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/common_usr/service_converter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module client_epig_shim
+INFO: [VRFC 10-311] analyzing module server_epig_shim
+INFO: [VRFC 10-311] analyzing module noc_tb_client
+INFO: [VRFC 10-311] analyzing module noc_tb_server
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/st_adapter_512_128.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module st_adapter_512_128
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/st_adapter_512_256.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module st_adapter_512_256
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/st_adapter_512_64.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module st_adapter_512_64
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/st_multiplexer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module st_multiplexer
+INFO: [VRFC 10-311] analyzing module st_multiplexer_multiplexer_191_l5kkgty_1stage_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/st_multiplexer_pkt_3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module st_multiplexer_pkt_3
+INFO: [VRFC 10-311] analyzing module st_multiplexer_pkt_3_multiplexer_191_tmcfvri_1stage_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/common_usr/stats_cnt.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stats_cnt
+INFO: [VRFC 10-311] analyzing module stats_cnt_rule
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/fast_pattern_matcher/string_matcher.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module string_matcher
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/services/string_matcher_client.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module string_matcher_client
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/fast_pattern_matcher/string_matcher_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module string_matcher_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/src/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/new/traffic_manager.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module traffic_manager
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/common_usr/unified_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module unified_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/imports/services/unified_fifo_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module unified_fifo_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/unified_pkt_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module unified_pkt_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/imports/sources_1/new/unified_pkt_fifo_service.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module unified_pkt_fifo_service
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.srcs/sources_1/new/top_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/gabriel/Desktop/go_workspace/github_repo/HPRC-PigasusXilinx/pigasus_xilinx/top/top.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

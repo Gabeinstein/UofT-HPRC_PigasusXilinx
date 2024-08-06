@@ -19,7 +19,6 @@ module stats #(
     input   logic   [5:0]               rx_empty,
     input   logic   [511:0]             rx_data,
     input   logic                       rx_valid,
-    input   logic                       rx_ready,
 
     output   logic                      o_rx_sop,
     output   logic                      o_rx_eop,

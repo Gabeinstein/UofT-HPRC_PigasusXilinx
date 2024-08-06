@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_acc_hash_sv_411813915 " />
+            <top_module name="glbl" />
+            <top_module name="tb_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="36,289.158 ns"></ZoomStartTime>
+      <ZoomEndTime time="36,659.159 ns"></ZoomEndTime>
+      <Cursor1Time time="36,705.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="334"></NameColumnWidth>
+      <ValueColumnWidth column_width="83"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject type="logic" fp_name="/tb_2/clk_status">
+      <obj_property name="ElementShortName">clk_status</obj_property>
+      <obj_property name="ObjectShortName">clk_status</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_rxmac">
+      <obj_property name="ElementShortName">clk_rxmac</obj_property>
+      <obj_property name="ObjectShortName">clk_rxmac</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_txmac">
+      <obj_property name="ElementShortName">clk_txmac</obj_property>
+      <obj_property name="ObjectShortName">clk_txmac</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_user">
+      <obj_property name="ElementShortName">clk_user</obj_property>
+      <obj_property name="ObjectShortName">clk_user</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_user_high">
+      <obj_property name="ElementShortName">clk_user_high</obj_property>
+      <obj_property name="ObjectShortName">clk_user_high</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_esram_ref">
+      <obj_property name="ElementShortName">clk_esram_ref</obj_property>
+      <obj_property name="ObjectShortName">clk_esram_ref</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_pcie">
+      <obj_property name="ElementShortName">clk_pcie</obj_property>
+      <obj_property name="ObjectShortName">clk_pcie</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_emif">
+      <obj_property name="ElementShortName">clk_emif</obj_property>
+      <obj_property name="ObjectShortName">clk_emif</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/emif_reset_n">
+      <obj_property name="ElementShortName">emif_reset_n</obj_property>
+      <obj_property name="ObjectShortName">emif_reset_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/cnt">
+      <obj_property name="ElementShortName">cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/addr">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/l8_rx_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">l8_rx_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">l8_rx_data[511:0]</obj_property>
+      <obj_property name="label">ROM to STATS data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/stats_rx_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">stats_rx_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">stats_rx_data[511:0]</obj_property>
+      <obj_property name="label">STATS to FIFO data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/top_in_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">top_in_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">top_in_data[511:0]</obj_property>
+      <obj_property name="label">FIFO to TOP data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_ethernet/in_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data[511:0]</obj_property>
+      <obj_property name="label">Ethernet In_data</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_ethernet/in/txP">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+      <obj_property name="label">Ethernet in txP to Reassembler</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/eth/txP">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+      <obj_property name="label">Reassembler(eth.txP)</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_2/partition_1/my_r/eth/txP.tx_msg">
+         <obj_property name="ElementShortName">.tx_msg</obj_property>
+         <obj_property name="ObjectShortName">.tx_msg</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/eth/txP.tx">
+         <obj_property name="ElementShortName">.tx</obj_property>
+         <obj_property name="ObjectShortName">.tx</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/eth_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">eth_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_data[511:0]</obj_property>
+      <obj_property name="label">Input_comp eth_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/pkt_buffer_address">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pkt_buffer_address[14:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_buffer_address[14:0]</obj_property>
+      <obj_property name="label">Input_comp pkt_buffer_address[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/pkt_buffer_writedata">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pkt_buffer_writedata</obj_property>
+      <obj_property name="ObjectShortName">pkt_buffer_writedata</obj_property>
+      <obj_property name="label">Input_comp pkt_buffer_writedata</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/esram_pkt_buffer/wraddress">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">wraddress[14:0]</obj_property>
+      <obj_property name="ObjectShortName">wraddress[14:0]</obj_property>
+      <obj_property name="label">Reassembler to EsRAM wraddress[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/esram_pkt_buffer/wrdata">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">wrdata[519:0]</obj_property>
+      <obj_property name="ObjectShortName">wrdata[519:0]</obj_property>
+      <obj_property name="label">Reassembler to EsRAM wrdata[519:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/esram_pkt_buffer/rddata">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rddata[519:0]</obj_property>
+      <obj_property name="ObjectShortName">rddata[519:0]</obj_property>
+      <obj_property name="label">EsRAM to TOP data[519:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/pkt_buf_rddata">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pkt_buf_rddata[519:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_buf_rddata[519:0]</obj_property>
+      <obj_property name="label">TOP pkt_buf_rddata[519:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/pkt_buffer_readdata">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pkt_buffer_readdata</obj_property>
+      <obj_property name="ObjectShortName">pkt_buffer_readdata</obj_property>
+      <obj_property name="label">Reassembler pkt_buffer_readdata</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/dm_inst/pkt_buffer_readdata">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pkt_buffer_readdata</obj_property>
+      <obj_property name="ObjectShortName">pkt_buffer_readdata</obj_property>
+      <obj_property name="label">Data Mover pkt_buffer_readdata</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/dm_inst/pkt_ss/rx/data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">data[511:0]</obj_property>
+      <obj_property name="label">Data Mover to epig shim[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/dm_inst/pkt/txP">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+      <obj_property name="label">Out Epig Shim,txP</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_2/partition_1/my_r/dm_inst/pkt/txP.tx_msg">
+         <obj_property name="ElementShortName">.tx_msg</obj_property>
+         <obj_property name="ObjectShortName">.tx_msg</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/dm_inst/pkt/txP.tx">
+         <obj_property name="ElementShortName">.tx</obj_property>
+         <obj_property name="ObjectShortName">.tx</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/nopayload/txP">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+      <obj_property name="label">Reassembler nopayload txP data</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_2/partition_1/my_r/nopayload/txP.tx_msg">
+         <obj_property name="ElementShortName">.tx_msg</obj_property>
+         <obj_property name="ObjectShortName">.tx_msg</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/nopayload/txP.tx">
+         <obj_property name="ElementShortName">.tx</obj_property>
+         <obj_property name="ObjectShortName">.tx</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_fifo0/in/txP">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+      <obj_property name="label">Unified pkt FIFO in</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_2/partition_1/my_fifo0/in/txP.tx_msg">
+         <obj_property name="ElementShortName">.tx_msg</obj_property>
+         <obj_property name="ObjectShortName">.tx_msg</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_2/partition_1/my_fifo0/in/txP.tx">
+         <obj_property name="ElementShortName">.tx</obj_property>
+         <obj_property name="ObjectShortName">.tx</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_fifo0/out/txP">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+      <obj_property name="label">Unified pkt FIFO out</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_2/partition_1/my_fifo0/out/txP.tx_msg">
+         <obj_property name="ElementShortName">.tx_msg</obj_property>
+         <obj_property name="ObjectShortName">.tx_msg</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_2/partition_1/my_fifo0/out/txP.tx">
+         <obj_property name="ElementShortName">.tx</obj_property>
+         <obj_property name="ObjectShortName">.tx</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_ethernet/out0/txP">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+      <obj_property name="label">Ethernet (out0)</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_ethernet/out_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data[511:0]</obj_property>
+      <obj_property name="label">Ethernet to Out FIFO [511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/out_fifo0/in_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data[511:0]</obj_property>
+      <obj_property name="label">OUT FIFO in_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/stats/tx_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tx_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[511:0]</obj_property>
+      <obj_property name="label">STATS tx_data[511:0]</obj_property>
+   </wvobject>
+</wave_config>

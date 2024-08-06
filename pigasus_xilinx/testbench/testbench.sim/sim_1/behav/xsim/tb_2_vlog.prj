@@ -1,0 +1,116 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../testbench.srcs/sources_1/imports/common_usr" --include "../../../../testbench.srcs/sources_1/imports/src" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/common_usr/FIFO2.v" \
+"../../../../testbench.srcs/sources_1/imports/new/altera_dcfifo_synchronizer_bundle.v" \
+"../../../../testbench.srcs/sources_1/imports/new/altera_std_synchronizer_nocut.v" \
+"../../../../testbench.srcs/sources_1/new/dc_fifo_core.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/dc_fifo_core_infill.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/dc_fifo_core_infill_mlab.v" \
+"../../../../testbench.srcs/sources_1/new/dc_fifo_wrapper.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/dc_fifo_wrapper_infill.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/dc_fifo_wrapper_infill_mlab.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/fifo_core_infill.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/fifo_core_infill_mlab.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/fifo_pkt_core_infill.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/fifo_pkt_core_infill_mlab.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/fifo_pkt_wrapper_infill.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/fifo_pkt_wrapper_infill_mlab.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/fifo_wrapper_infill.v" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/fifo_wrapper_infill_mlab.v" \
+
+sv xil_defaultlib  --include "../../../../testbench.srcs/sources_1/imports/common_usr" --include "../../../../testbench.srcs/sources_1/imports/src" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/acc_hash.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/arb_2_af_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/arb_2_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/common_usr/arb_2_wrapper.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/common_usr/arb_2_wrapper_infill.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/fast_pattern_matcher/backend.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/bram_simple2port.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/bram_true2port.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/services/bypass_back_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/services/bypass_front_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/common_usr/bypass_nf_back.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/common_usr/bypass_nf_front.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/non_fast_pattern_matcher/cal_fp.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/common_usr/channel_fifo.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/services/channel_fifo_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/data_mover.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/data_mover_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/dma_service.sv" \
+"../../../../testbench.srcs/sources_1/new/esram_wrapper.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/ethernet_service_multi_out.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/services/fast_pm_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/fast_pattern_matcher/first_filter.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/reassembly/flow_reassembly.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/reassembly/flow_table.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/flow_table_client.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/reassembly/flow_table_wrapper.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/common_usr/fork_2.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/services/fork_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/fast_pattern_matcher/frontend.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/reassembly/hash_func.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/hashtable.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/fast_pattern_matcher/hashtable_top.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/hyper_pipe.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/common_usr/hyper_pipe_rst.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/parser/input_comp.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/input_comp_client.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/interface_debugger.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/reassembly/linked_list.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/mul_hash.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/non_fast_pattern_matcher/nf_fp_matcher.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/non_fast_pattern_matcher/nf_reduction_2t1.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/non_fast_pattern_matcher/nf_rule_reduction.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/services/non_fast_pattern_client.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/non_fast_pattern_matcher/non_fast_pattern_ht.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/non_fast_pattern_matcher/non_fast_pattern_shiftor.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/non_fast_pattern_matcher/non_fast_pattern_sm.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/non_fast_pattern_matcher/non_fast_pattern_wrapper.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/imports/services/non_fast_pm_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/reassembly/para_Q.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/parser/parser.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/parser_client.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/pdu_data_mover.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/pdu_gen.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/pkt_almost_full.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/pkt_almost_full_nogap.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/pkt_data_shift.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/pkt_mux_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/port_group/port_group.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/services/port_group_client.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/services/port_group_matcher_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/port_group/port_unit.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/reassembler_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/fast_pattern_matcher/reduction_2t1.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/rom_1port_mlab.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/rom_2port.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/rr_arbiter.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/common_usr/rr_arbiter_4.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/common_usr/rule_depacker_512_128.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/rule_packer_128_512.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/common_usr/rule_packer_32_512.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/port_group/rule_unit.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/common_usr/service_converter.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/st_adapter_512_128.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/st_adapter_512_256.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/st_adapter_512_64.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/st_multiplexer.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/st_multiplexer_pkt_3.sv" \
+"../../../../testbench.srcs/sources_1/imports/src/stats.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/common_usr/stats_cnt.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/fast_pattern_matcher/string_matcher.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/services/string_matcher_client.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/fast_pattern_matcher/string_matcher_wrapper.sv" \
+"../../../../testbench.srcs/sources_1/imports/src/top.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/new/traffic_manager.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/common_usr/unified_fifo.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/imports/services/unified_fifo_service.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/unified_pkt_fifo.sv" \
+"../../../../testbench.srcs/sources_1/imports/imports/sources_1/new/unified_pkt_fifo_service.sv" \
+"../../../../testbench.srcs/sources_1/new/tb_2.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
