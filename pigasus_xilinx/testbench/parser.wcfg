@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_acc_hash_sv_411813915 " />
+            <top_module name="glbl" />
+            <top_module name="tb_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="32.542005 us"></ZoomStartTime>
+      <ZoomEndTime time="44.262006 us"></ZoomEndTime>
+      <Cursor1Time time="33.462005 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="334"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="59" />
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/in_pkt_data">
+      <obj_property name="ElementShortName">in_pkt_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">in_pkt_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/in_pkt_valid">
+      <obj_property name="ElementShortName">in_pkt_valid</obj_property>
+      <obj_property name="ObjectShortName">in_pkt_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/in_pkt_ready">
+      <obj_property name="ElementShortName">in_pkt_ready</obj_property>
+      <obj_property name="ObjectShortName">in_pkt_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/in_pkt_sop">
+      <obj_property name="ElementShortName">in_pkt_sop</obj_property>
+      <obj_property name="ObjectShortName">in_pkt_sop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/in_pkt_eop">
+      <obj_property name="ElementShortName">in_pkt_eop</obj_property>
+      <obj_property name="ObjectShortName">in_pkt_eop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/in_pkt_empty">
+      <obj_property name="ElementShortName">in_pkt_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">in_pkt_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/out_pkt_data">
+      <obj_property name="ElementShortName">out_pkt_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">out_pkt_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/out_pkt_valid">
+      <obj_property name="ElementShortName">out_pkt_valid</obj_property>
+      <obj_property name="ObjectShortName">out_pkt_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/out_pkt_ready">
+      <obj_property name="ElementShortName">out_pkt_ready</obj_property>
+      <obj_property name="ObjectShortName">out_pkt_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/out_pkt_sop">
+      <obj_property name="ElementShortName">out_pkt_sop</obj_property>
+      <obj_property name="ObjectShortName">out_pkt_sop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/out_pkt_eop">
+      <obj_property name="ElementShortName">out_pkt_eop</obj_property>
+      <obj_property name="ObjectShortName">out_pkt_eop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/out_pkt_empty">
+      <obj_property name="ElementShortName">out_pkt_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">out_pkt_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/in_meta_data">
+      <obj_property name="ElementShortName">in_meta_data</obj_property>
+      <obj_property name="ObjectShortName">in_meta_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/in_meta_valid">
+      <obj_property name="ElementShortName">in_meta_valid</obj_property>
+      <obj_property name="ObjectShortName">in_meta_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/in_meta_ready">
+      <obj_property name="ElementShortName">in_meta_ready</obj_property>
+      <obj_property name="ObjectShortName">in_meta_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/out_meta_data">
+      <obj_property name="ElementShortName">out_meta_data</obj_property>
+      <obj_property name="ObjectShortName">out_meta_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/out_meta_valid">
+      <obj_property name="ElementShortName">out_meta_valid</obj_property>
+      <obj_property name="ObjectShortName">out_meta_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/out_meta_ready">
+      <obj_property name="ElementShortName">out_meta_ready</obj_property>
+      <obj_property name="ObjectShortName">out_meta_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/eth_type">
+      <obj_property name="ElementShortName">eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_version">
+      <obj_property name="ElementShortName">ip_version[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_version[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_ihl">
+      <obj_property name="ElementShortName">ip_ihl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_ihl[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_dscp">
+      <obj_property name="ElementShortName">ip_dscp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_dscp[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_ecn">
+      <obj_property name="ElementShortName">ip_ecn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_ecn[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_len">
+      <obj_property name="ElementShortName">ip_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_len[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_id">
+      <obj_property name="ElementShortName">ip_id[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_id[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_flags">
+      <obj_property name="ElementShortName">ip_flags[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_flags[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_fo">
+      <obj_property name="ElementShortName">ip_fo[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_fo[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_ttl">
+      <obj_property name="ElementShortName">ip_ttl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_ttl[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_prot">
+      <obj_property name="ElementShortName">ip_prot[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_prot[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_chsm">
+      <obj_property name="ElementShortName">ip_chsm[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_chsm[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_sip">
+      <obj_property name="ElementShortName">ip_sip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_sip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_dip_high">
+      <obj_property name="ElementShortName">ip_dip_high[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_dip_high[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/ip_dip_low">
+      <obj_property name="ElementShortName">ip_dip_low[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_dip_low[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/udp_sport">
+      <obj_property name="ElementShortName">udp_sport[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_sport[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/udp_dport">
+      <obj_property name="ElementShortName">udp_dport[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_dport[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/udp_len">
+      <obj_property name="ElementShortName">udp_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_len[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/udp_chsm">
+      <obj_property name="ElementShortName">udp_chsm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_chsm[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_sport">
+      <obj_property name="ElementShortName">tcp_sport[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tcp_sport[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_dport">
+      <obj_property name="ElementShortName">tcp_dport[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tcp_dport[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_seq">
+      <obj_property name="ElementShortName">tcp_seq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tcp_seq[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_ack">
+      <obj_property name="ElementShortName">tcp_ack[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tcp_ack[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_do">
+      <obj_property name="ElementShortName">tcp_do[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tcp_do[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_rsv">
+      <obj_property name="ElementShortName">tcp_rsv[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tcp_rsv[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_ns">
+      <obj_property name="ElementShortName">tcp_ns</obj_property>
+      <obj_property name="ObjectShortName">tcp_ns</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_cwr">
+      <obj_property name="ElementShortName">tcp_cwr</obj_property>
+      <obj_property name="ObjectShortName">tcp_cwr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_ece">
+      <obj_property name="ElementShortName">tcp_ece</obj_property>
+      <obj_property name="ObjectShortName">tcp_ece</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_urg">
+      <obj_property name="ElementShortName">tcp_urg</obj_property>
+      <obj_property name="ObjectShortName">tcp_urg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_fack">
+      <obj_property name="ElementShortName">tcp_fack</obj_property>
+      <obj_property name="ObjectShortName">tcp_fack</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_psh">
+      <obj_property name="ElementShortName">tcp_psh</obj_property>
+      <obj_property name="ObjectShortName">tcp_psh</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_rst">
+      <obj_property name="ElementShortName">tcp_rst</obj_property>
+      <obj_property name="ObjectShortName">tcp_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_syn">
+      <obj_property name="ElementShortName">tcp_syn</obj_property>
+      <obj_property name="ObjectShortName">tcp_syn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_fin">
+      <obj_property name="ElementShortName">tcp_fin</obj_property>
+      <obj_property name="ObjectShortName">tcp_fin</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_win">
+      <obj_property name="ElementShortName">tcp_win[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tcp_win[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_chsm">
+      <obj_property name="ElementShortName">tcp_chsm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tcp_chsm[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/tcp_urgp">
+      <obj_property name="ElementShortName">tcp_urgp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tcp_urgp[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/metadata">
+      <obj_property name="ElementShortName">metadata</obj_property>
+      <obj_property name="ObjectShortName">metadata</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/my_parser/parser_inst/support">
+      <obj_property name="ElementShortName">support</obj_property>
+      <obj_property name="ObjectShortName">support</obj_property>
+   </wvobject>
+</wave_config>

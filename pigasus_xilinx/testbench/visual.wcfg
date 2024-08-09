@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_acc_hash_sv_3986433122 " />
+            <top_module name="glbl" />
+            <top_module name="tb_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="89.947501 us"></ZoomEndTime>
+      <Cursor1Time time="39.719085 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="334"></NameColumnWidth>
+      <ValueColumnWidth column_width="71"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="77" />
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/emif_reset_n">
+      <obj_property name="ElementShortName">emif_reset_n</obj_property>
+      <obj_property name="ObjectShortName">emif_reset_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/emif_clk">
+      <obj_property name="ElementShortName">emif_clk</obj_property>
+      <obj_property name="ObjectShortName">emif_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/ddr_wr_req_data">
+      <obj_property name="ElementShortName">ddr_wr_req_data</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_req_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/ddr_wr_req_valid">
+      <obj_property name="ElementShortName">ddr_wr_req_valid</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_req_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/ddr_wr_req_almost_full">
+      <obj_property name="ElementShortName">ddr_wr_req_almost_full</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_req_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/ddr_rd_req_data">
+      <obj_property name="ElementShortName">ddr_rd_req_data</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_req_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/ddr_rd_req_valid">
+      <obj_property name="ElementShortName">ddr_rd_req_valid</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_req_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/ddr_rd_req_almost_full">
+      <obj_property name="ElementShortName">ddr_rd_req_almost_full</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_req_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/ddr_rd_resp_data">
+      <obj_property name="ElementShortName">ddr_rd_resp_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_resp_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/ddr_rd_resp_valid">
+      <obj_property name="ElementShortName">ddr_rd_resp_valid</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_resp_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/ddr_rd_resp_ready">
+      <obj_property name="ElementShortName">ddr_rd_resp_ready</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_resp_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/clk_status">
+      <obj_property name="ElementShortName">clk_status</obj_property>
+      <obj_property name="ObjectShortName">clk_status</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/status_addr">
+      <obj_property name="ElementShortName">status_addr[29:0]</obj_property>
+      <obj_property name="ObjectShortName">status_addr[29:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/status_read">
+      <obj_property name="ElementShortName">status_read</obj_property>
+      <obj_property name="ObjectShortName">status_read</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/status_write">
+      <obj_property name="ElementShortName">status_write</obj_property>
+      <obj_property name="ObjectShortName">status_write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/status_writedata">
+      <obj_property name="ElementShortName">status_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/status_readdata">
+      <obj_property name="ElementShortName">status_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/status_readdata_valid">
+      <obj_property name="ElementShortName">status_readdata_valid</obj_property>
+      <obj_property name="ObjectShortName">status_readdata_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/rden_r1">
+      <obj_property name="ElementShortName">rden_r1</obj_property>
+      <obj_property name="ObjectShortName">rden_r1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/emif_waitrequest_n">
+      <obj_property name="ElementShortName">emif_waitrequest_n</obj_property>
+      <obj_property name="ObjectShortName">emif_waitrequest_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/emif_read">
+      <obj_property name="ElementShortName">emif_read</obj_property>
+      <obj_property name="ObjectShortName">emif_read</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/emif_write">
+      <obj_property name="ElementShortName">emif_write</obj_property>
+      <obj_property name="ObjectShortName">emif_write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_address">
+      <obj_property name="ElementShortName">emif_address[26:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_address[26:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_readdata">
+      <obj_property name="ElementShortName">emif_readdata[511:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_readdata[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_writedata">
+      <obj_property name="ElementShortName">emif_writedata[511:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_writedata[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_burstcount">
+      <obj_property name="ElementShortName">emif_burstcount[6:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_burstcount[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_byteenable">
+      <obj_property name="ElementShortName">emif_byteenable[63:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_byteenable[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/emif_readdatavalid">
+      <obj_property name="ElementShortName">emif_readdatavalid</obj_property>
+      <obj_property name="ObjectShortName">emif_readdatavalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/int_wr_req_data">
+      <obj_property name="ElementShortName">int_wr_req_data</obj_property>
+      <obj_property name="ObjectShortName">int_wr_req_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_wr_req_valid">
+      <obj_property name="ElementShortName">int_wr_req_valid</obj_property>
+      <obj_property name="ObjectShortName">int_wr_req_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_wr_req_ready">
+      <obj_property name="ElementShortName">int_wr_req_ready</obj_property>
+      <obj_property name="ObjectShortName">int_wr_req_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/ddr_wr_req_csr_readdata">
+      <obj_property name="ElementShortName">ddr_wr_req_csr_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_req_csr_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_req_data">
+      <obj_property name="ElementShortName">int_rd_req_data</obj_property>
+      <obj_property name="ObjectShortName">int_rd_req_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_req_valid">
+      <obj_property name="ElementShortName">int_rd_req_valid</obj_property>
+      <obj_property name="ObjectShortName">int_rd_req_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_req_ready">
+      <obj_property name="ElementShortName">int_rd_req_ready</obj_property>
+      <obj_property name="ObjectShortName">int_rd_req_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/ddr_rd_req_csr_readdata">
+      <obj_property name="ElementShortName">ddr_rd_req_csr_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_req_csr_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/int_req_data">
+      <obj_property name="ElementShortName">int_req_data</obj_property>
+      <obj_property name="ObjectShortName">int_req_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_req_valid">
+      <obj_property name="ElementShortName">int_req_valid</obj_property>
+      <obj_property name="ObjectShortName">int_req_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_req_ready">
+      <obj_property name="ElementShortName">int_req_ready</obj_property>
+      <obj_property name="ObjectShortName">int_req_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/ddr_req_data">
+      <obj_property name="ElementShortName">ddr_req_data</obj_property>
+      <obj_property name="ObjectShortName">ddr_req_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/ddr_req_valid">
+      <obj_property name="ElementShortName">ddr_req_valid</obj_property>
+      <obj_property name="ObjectShortName">ddr_req_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/ddr_req_ready">
+      <obj_property name="ElementShortName">ddr_req_ready</obj_property>
+      <obj_property name="ObjectShortName">ddr_req_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/ddr_req_almost_full">
+      <obj_property name="ElementShortName">ddr_req_almost_full</obj_property>
+      <obj_property name="ObjectShortName">ddr_req_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/ddr_req_csr_readdata">
+      <obj_property name="ElementShortName">ddr_req_csr_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_req_csr_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_resp_data">
+      <obj_property name="ElementShortName">int_rd_resp_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">int_rd_resp_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_resp_valid">
+      <obj_property name="ElementShortName">int_rd_resp_valid</obj_property>
+      <obj_property name="ObjectShortName">int_rd_resp_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_resp_data_r">
+      <obj_property name="ElementShortName">int_rd_resp_data_r[511:0]</obj_property>
+      <obj_property name="ObjectShortName">int_rd_resp_data_r[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_resp_valid_r">
+      <obj_property name="ElementShortName">int_rd_resp_valid_r</obj_property>
+      <obj_property name="ObjectShortName">int_rd_resp_valid_r</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_resp_ready">
+      <obj_property name="ElementShortName">int_rd_resp_ready</obj_property>
+      <obj_property name="ObjectShortName">int_rd_resp_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_resp_csr_readdata">
+      <obj_property name="ElementShortName">int_rd_resp_csr_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">int_rd_resp_csr_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_resp_almost_full">
+      <obj_property name="ElementShortName">int_rd_resp_almost_full</obj_property>
+      <obj_property name="ObjectShortName">int_rd_resp_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/int_rd_resp_almost_full_r1">
+      <obj_property name="ElementShortName">int_rd_resp_almost_full_r1</obj_property>
+      <obj_property name="ObjectShortName">int_rd_resp_almost_full_r1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/ddr_rd_resp_almost_full">
+      <obj_property name="ElementShortName">ddr_rd_resp_almost_full</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_resp_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/arb_req">
+      <obj_property name="ElementShortName">arb_req[1:0]</obj_property>
+      <obj_property name="ObjectShortName">arb_req[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/arb_grant">
+      <obj_property name="ElementShortName">arb_grant[1:0]</obj_property>
+      <obj_property name="ObjectShortName">arb_grant[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/arb_sop">
+      <obj_property name="ElementShortName">arb_sop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">arb_sop[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/arb_eop">
+      <obj_property name="ElementShortName">arb_eop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">arb_eop[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_rd_cnt">
+      <obj_property name="ElementShortName">emif_rd_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_rd_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_wr_cnt">
+      <obj_property name="ElementShortName">emif_wr_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_wr_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_resp_cnt">
+      <obj_property name="ElementShortName">emif_resp_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_resp_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_max_resp">
+      <obj_property name="ElementShortName">emif_max_resp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_max_resp[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_rd_cnt_r1">
+      <obj_property name="ElementShortName">emif_rd_cnt_r1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_rd_cnt_r1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_wr_cnt_r1">
+      <obj_property name="ElementShortName">emif_wr_cnt_r1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_wr_cnt_r1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_resp_cnt_r1">
+      <obj_property name="ElementShortName">emif_resp_cnt_r1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_resp_cnt_r1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_max_resp_r1">
+      <obj_property name="ElementShortName">emif_max_resp_r1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_max_resp_r1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_rd_cnt_status">
+      <obj_property name="ElementShortName">emif_rd_cnt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_rd_cnt_status[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_wr_cnt_status">
+      <obj_property name="ElementShortName">emif_wr_cnt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_wr_cnt_status[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_resp_cnt_status">
+      <obj_property name="ElementShortName">emif_resp_cnt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_resp_cnt_status[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/emif_max_resp_status">
+      <obj_property name="ElementShortName">emif_max_resp_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emif_max_resp_status[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/status_addr_r">
+      <obj_property name="ElementShortName">status_addr_r[29:0]</obj_property>
+      <obj_property name="ObjectShortName">status_addr_r[29:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/status_read_r">
+      <obj_property name="ElementShortName">status_read_r</obj_property>
+      <obj_property name="ObjectShortName">status_read_r</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/status_write_r">
+      <obj_property name="ElementShortName">status_write_r</obj_property>
+      <obj_property name="ObjectShortName">status_write_r</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/status_writedata_r">
+      <obj_property name="ElementShortName">status_writedata_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_writedata_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_check_pkt_buffer/status_addr_sel_r">
+      <obj_property name="ElementShortName">status_addr_sel_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">status_addr_sel_r[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_check_pkt_buffer/emif_rst">
+      <obj_property name="ElementShortName">emif_rst</obj_property>
+      <obj_property name="ObjectShortName">emif_rst</obj_property>
+   </wvobject>
+</wave_config>

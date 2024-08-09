@@ -621,6 +621,30 @@ dc_fifo_wrapper_infill out_fifo0 (
     .out_empty         (l8_tx_empty)          
 );
 
+dram_wrapper dram_check_pkt_buffer(
+    .emif_reset_n           (emif_reset_n),
+    .emif_clk               (clk_emif),
+    .clk                    (clk_pcie),
+    .rst                    (rst),
+    .ddr_wr_req_data        (ddr_wr_req_data),
+    .ddr_wr_req_valid       (ddr_wr_req_valid),
+    .ddr_wr_req_almost_full (ddr_wr_req_almost_full),
+    .ddr_rd_req_data        (ddr_rd_req_data),
+    .ddr_rd_req_valid       (ddr_rd_req_valid),
+    .ddr_rd_req_almost_full (ddr_rd_req_almost_full),
+    .ddr_rd_resp_data       (ddr_rd_resp_data),
+    .ddr_rd_resp_valid      (ddr_rd_resp_valid),
+    .ddr_rd_resp_ready      (!ddr_rd_resp_almost_full),
+    //JTAG
+    .clk_status                   (clk_status),
+    .status_addr                  (s_addr),
+    .status_read                  (s_read),
+    .status_write                 (s_write),
+    .status_writedata             (s_writedata),
+    .status_readdata              (dram_readdata),
+    .status_readdata_valid        (dram_readdata_valid)
+);
+
 esram_wrapper esram_pkt_buffer(
     .clk_esram_ref  (clk_esram_ref), //100 MHz
     .esram_pll_lock (esram_pll_lock), 

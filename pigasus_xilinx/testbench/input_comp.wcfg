@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_acc_hash_sv_411813915 " />
+            <top_module name="glbl" />
+            <top_module name="tb_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="33.680426 us"></ZoomStartTime>
+      <ZoomEndTime time="56.800427 us"></ZoomEndTime>
+      <Cursor1Time time="37.533759 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="334"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/eth_sop">
+      <obj_property name="ElementShortName">eth_sop</obj_property>
+      <obj_property name="ObjectShortName">eth_sop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/eth_eop">
+      <obj_property name="ElementShortName">eth_eop</obj_property>
+      <obj_property name="ObjectShortName">eth_eop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/eth_data">
+      <obj_property name="ElementShortName">eth_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/eth_empty">
+      <obj_property name="ElementShortName">eth_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/eth_valid">
+      <obj_property name="ElementShortName">eth_valid</obj_property>
+      <obj_property name="ObjectShortName">eth_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_buffer_address">
+      <obj_property name="ElementShortName">pkt_buffer_address[14:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_buffer_address[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_buffer_write">
+      <obj_property name="ElementShortName">pkt_buffer_write</obj_property>
+      <obj_property name="ObjectShortName">pkt_buffer_write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_buffer_writedata">
+      <obj_property name="ElementShortName">pkt_buffer_writedata</obj_property>
+      <obj_property name="ObjectShortName">pkt_buffer_writedata</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/emptylist_out_data">
+      <obj_property name="ElementShortName">emptylist_out_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">emptylist_out_data[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/emptylist_out_valid">
+      <obj_property name="ElementShortName">emptylist_out_valid</obj_property>
+      <obj_property name="ObjectShortName">emptylist_out_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/emptylist_out_ready">
+      <obj_property name="ElementShortName">emptylist_out_ready</obj_property>
+      <obj_property name="ObjectShortName">emptylist_out_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_sop">
+      <obj_property name="ElementShortName">pkt_sop</obj_property>
+      <obj_property name="ObjectShortName">pkt_sop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_eop">
+      <obj_property name="ElementShortName">pkt_eop</obj_property>
+      <obj_property name="ObjectShortName">pkt_eop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_valid">
+      <obj_property name="ElementShortName">pkt_valid</obj_property>
+      <obj_property name="ObjectShortName">pkt_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_data">
+      <obj_property name="ElementShortName">pkt_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_empty">
+      <obj_property name="ElementShortName">pkt_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_ready">
+      <obj_property name="ElementShortName">pkt_ready</obj_property>
+      <obj_property name="ObjectShortName">pkt_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/meta_valid">
+      <obj_property name="ElementShortName">meta_valid</obj_property>
+      <obj_property name="ObjectShortName">meta_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/meta_data">
+      <obj_property name="ElementShortName">meta_data</obj_property>
+      <obj_property name="ObjectShortName">meta_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/meta_ready">
+      <obj_property name="ElementShortName">meta_ready</obj_property>
+      <obj_property name="ObjectShortName">meta_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_buffer_address_r">
+      <obj_property name="ElementShortName">pkt_buffer_address_r[14:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_buffer_address_r[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_buffer_writedata_r">
+      <obj_property name="ElementShortName">pkt_buffer_writedata_r</obj_property>
+      <obj_property name="ObjectShortName">pkt_buffer_writedata_r</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/pkt_buffer_write_r">
+      <obj_property name="ElementShortName">pkt_buffer_write_r</obj_property>
+      <obj_property name="ObjectShortName">pkt_buffer_write_r</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/current_empty">
+      <obj_property name="ElementShortName">current_empty[9:0]</obj_property>
+      <obj_property name="ObjectShortName">current_empty[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/next_empty">
+      <obj_property name="ElementShortName">next_empty[9:0]</obj_property>
+      <obj_property name="ObjectShortName">next_empty[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/empty_meta">
+      <obj_property name="ElementShortName">empty_meta</obj_property>
+      <obj_property name="ObjectShortName">empty_meta</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/flits">
+      <obj_property name="ElementShortName">flits[4:0]</obj_property>
+      <obj_property name="ObjectShortName">flits[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/eth_data_r">
+      <obj_property name="ElementShortName">eth_data_r[511:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_data_r[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_r/incomp/input_comp_inst/lock">
+      <obj_property name="ElementShortName">lock</obj_property>
+      <obj_property name="ObjectShortName">lock</obj_property>
+   </wvobject>
+</wave_config>

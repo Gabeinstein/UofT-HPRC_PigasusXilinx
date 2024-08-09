@@ -4,4 +4,10 @@ Finish PKT emptylist init
 PKT          0
 STOP READING!
 Finish LL emptylist init
-INFO: xsimkernel Simulation Memory Usage: 206288 KB (Peak: 243324 KB), Simulation CPU Usage: 58730 ms
+Finish PKT emptylist init
+PKT          0
+=== PKT          0 ===
+=== PKT          1 ===
+STOP READING!
+Finish LL emptylist init
+INFO: xsimkernel Simulation Memory Usage: 207076 KB (Peak: 243988 KB), Simulation CPU Usage: 105600 ms
