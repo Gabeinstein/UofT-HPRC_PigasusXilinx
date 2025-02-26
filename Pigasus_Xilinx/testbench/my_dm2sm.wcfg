@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_acc_hash_sv_4116750962 " />
+            <top_module name="glbl" />
+            <top_module name="tb_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="117.600001 us"></ZoomEndTime>
+      <Cursor1Time time="58.947500 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="272"></NameColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject type="array" fp_name="/tb_2/partition_1/cnt">
+      <obj_property name="ElementShortName">cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_dm2sm/\port[0] /data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">data[511:0]</obj_property>
+      <obj_property name="label">my_dm2sm.port[0].data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[0] /valid">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[0] /ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[0] /sop">
+      <obj_property name="ElementShortName">sop</obj_property>
+      <obj_property name="ObjectShortName">sop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[0] /eop">
+      <obj_property name="ElementShortName">eop</obj_property>
+      <obj_property name="ObjectShortName">eop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/in_pkt_push">
+      <obj_property name="ElementShortName">in_pkt_push[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_pkt_push[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_dm2sm/\port[1] /data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">data[511:0]</obj_property>
+      <obj_property name="label">my_dm2sm.port[1].data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[1] /valid">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[1] /ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[1] /sop">
+      <obj_property name="ElementShortName">sop</obj_property>
+      <obj_property name="ObjectShortName">sop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[1] /eop">
+      <obj_property name="ElementShortName">eop</obj_property>
+      <obj_property name="ObjectShortName">eop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/in_usr_push">
+      <obj_property name="ElementShortName">in_usr_push[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_usr_push[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_dm2sm/\port[2] /data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">data[511:0]</obj_property>
+      <obj_property name="label">my_dm2sm.port[2].data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[2] /valid">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[2] /ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[2] /sop">
+      <obj_property name="ElementShortName">sop</obj_property>
+      <obj_property name="ObjectShortName">sop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[2] /eop">
+      <obj_property name="ElementShortName">eop</obj_property>
+      <obj_property name="ObjectShortName">eop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/out_pkt_pop">
+      <obj_property name="ElementShortName">out_pkt_pop[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_pkt_pop[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_dm2sm/\port[3] /data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">data[511:0]</obj_property>
+      <obj_property name="label">my_dm2sm.port[3].data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[3] /valid">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[3] /ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[3] /sop">
+      <obj_property name="ElementShortName">sop</obj_property>
+      <obj_property name="ObjectShortName">sop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port[3] /eop">
+      <obj_property name="ElementShortName">eop</obj_property>
+      <obj_property name="ObjectShortName">eop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/out_usr_pop">
+      <obj_property name="ElementShortName">out_usr_pop[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_usr_pop[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_dm2sm/\port_meta[0] /data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[251:0]</obj_property>
+      <obj_property name="ObjectShortName">data[251:0]</obj_property>
+      <obj_property name="label">my_dm2sm.port_meta[0].data[251:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port_meta[0] /valid">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port_meta[0] /ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port_meta[0] /sop">
+      <obj_property name="ElementShortName">sop</obj_property>
+      <obj_property name="ObjectShortName">sop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port_meta[0] /eop">
+      <obj_property name="ElementShortName">eop</obj_property>
+      <obj_property name="ObjectShortName">eop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/in_meta_push">
+      <obj_property name="ElementShortName">in_meta_push[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_meta_push[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_dm2sm/\port_meta[1] /data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data[251:0]</obj_property>
+      <obj_property name="ObjectShortName">data[251:0]</obj_property>
+      <obj_property name="label">my_dm2sm.port_meta[1].data[251:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port_meta[1] /valid">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port_meta[1] /ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/out_meta_pop">
+      <obj_property name="ElementShortName">out_meta_pop[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_meta_pop[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port_meta[1] /sop">
+      <obj_property name="ElementShortName">sop</obj_property>
+      <obj_property name="ObjectShortName">sop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_1/my_dm2sm/\port_meta[1] /eop">
+      <obj_property name="ElementShortName">eop</obj_property>
+      <obj_property name="ObjectShortName">eop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/fifo0_in_direct/txP">
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+   </wvobject>
+</wave_config>

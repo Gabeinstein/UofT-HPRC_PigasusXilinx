@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_acc_hash_sv_4116750962 " />
+            <top_module name="glbl" />
+            <top_module name="tb_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="184.561182 us"></ZoomEndTime>
+      <Cursor1Time time="131.750000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="269"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="132" />
+   <wvobject type="logic" fp_name="/tb_2/clk_status">
+      <obj_property name="ElementShortName">clk_status</obj_property>
+      <obj_property name="ObjectShortName">clk_status</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_rxmac">
+      <obj_property name="ElementShortName">clk_rxmac</obj_property>
+      <obj_property name="ObjectShortName">clk_rxmac</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_txmac">
+      <obj_property name="ElementShortName">clk_txmac</obj_property>
+      <obj_property name="ObjectShortName">clk_txmac</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_user">
+      <obj_property name="ElementShortName">clk_user</obj_property>
+      <obj_property name="ObjectShortName">clk_user</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_user_high">
+      <obj_property name="ElementShortName">clk_user_high</obj_property>
+      <obj_property name="ObjectShortName">clk_user_high</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_esram_ref">
+      <obj_property name="ElementShortName">clk_esram_ref</obj_property>
+      <obj_property name="ObjectShortName">clk_esram_ref</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_pcie">
+      <obj_property name="ElementShortName">clk_pcie</obj_property>
+      <obj_property name="ObjectShortName">clk_pcie</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_emif">
+      <obj_property name="ElementShortName">clk_emif</obj_property>
+      <obj_property name="ObjectShortName">clk_emif</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/emif_reset_n">
+      <obj_property name="ElementShortName">emif_reset_n</obj_property>
+      <obj_property name="ObjectShortName">emif_reset_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pkt_cnt">
+      <obj_property name="ElementShortName">pkt_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/cnt">
+      <obj_property name="ElementShortName">cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/addr">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/l8_rx_data">
+      <obj_property name="ElementShortName">l8_rx_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">l8_rx_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/l8_rx_empty">
+      <obj_property name="ElementShortName">l8_rx_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">l8_rx_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/l8_rx_valid">
+      <obj_property name="ElementShortName">l8_rx_valid</obj_property>
+      <obj_property name="ObjectShortName">l8_rx_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/l8_rx_startofpacket">
+      <obj_property name="ElementShortName">l8_rx_startofpacket</obj_property>
+      <obj_property name="ObjectShortName">l8_rx_startofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/l8_rx_endofpacket">
+      <obj_property name="ElementShortName">l8_rx_endofpacket</obj_property>
+      <obj_property name="ObjectShortName">l8_rx_endofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/l8_rx_ready">
+      <obj_property name="ElementShortName">l8_rx_ready</obj_property>
+      <obj_property name="ObjectShortName">l8_rx_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/stats_rx_data">
+      <obj_property name="ElementShortName">stats_rx_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">stats_rx_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/stats_rx_empty">
+      <obj_property name="ElementShortName">stats_rx_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">stats_rx_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/stats_rx_valid">
+      <obj_property name="ElementShortName">stats_rx_valid</obj_property>
+      <obj_property name="ObjectShortName">stats_rx_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/stats_rx_startofpacket">
+      <obj_property name="ElementShortName">stats_rx_startofpacket</obj_property>
+      <obj_property name="ObjectShortName">stats_rx_startofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/stats_rx_endofpacket">
+      <obj_property name="ElementShortName">stats_rx_endofpacket</obj_property>
+      <obj_property name="ObjectShortName">stats_rx_endofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/stats_rx_ready">
+      <obj_property name="ElementShortName">stats_rx_ready</obj_property>
+      <obj_property name="ObjectShortName">stats_rx_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/top_in_data">
+      <obj_property name="ElementShortName">top_in_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">top_in_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/top_in_empty">
+      <obj_property name="ElementShortName">top_in_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">top_in_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/top_in_valid">
+      <obj_property name="ElementShortName">top_in_valid</obj_property>
+      <obj_property name="ObjectShortName">top_in_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/top_in_startofpacket">
+      <obj_property name="ElementShortName">top_in_startofpacket</obj_property>
+      <obj_property name="ObjectShortName">top_in_startofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/top_in_endofpacket">
+      <obj_property name="ElementShortName">top_in_endofpacket</obj_property>
+      <obj_property name="ObjectShortName">top_in_endofpacket</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/top_out_data">
+      <obj_property name="ElementShortName">top_out_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">top_out_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/top_out_empty">
+      <obj_property name="ElementShortName">top_out_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">top_out_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/top_out_valid">
+      <obj_property name="ElementShortName">top_out_valid</obj_property>
+      <obj_property name="ObjectShortName">top_out_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/top_out_startofpacket">
+      <obj_property name="ElementShortName">top_out_startofpacket</obj_property>
+      <obj_property name="ObjectShortName">top_out_startofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/top_out_endofpacket">
+      <obj_property name="ElementShortName">top_out_endofpacket</obj_property>
+      <obj_property name="ObjectShortName">top_out_endofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/top_out_almost_full">
+      <obj_property name="ElementShortName">top_out_almost_full</obj_property>
+      <obj_property name="ObjectShortName">top_out_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_out_data">
+      <obj_property name="ElementShortName">partition_out_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">partition_out_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_out_empty">
+      <obj_property name="ElementShortName">partition_out_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">partition_out_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_out_valid">
+      <obj_property name="ElementShortName">partition_out_valid</obj_property>
+      <obj_property name="ObjectShortName">partition_out_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_out_ready">
+      <obj_property name="ElementShortName">partition_out_ready</obj_property>
+      <obj_property name="ObjectShortName">partition_out_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_out_startofpacket">
+      <obj_property name="ElementShortName">partition_out_startofpacket</obj_property>
+      <obj_property name="ObjectShortName">partition_out_startofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_out_endofpacket">
+      <obj_property name="ElementShortName">partition_out_endofpacket</obj_property>
+      <obj_property name="ObjectShortName">partition_out_endofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_out_almost_full">
+      <obj_property name="ElementShortName">partition_out_almost_full</obj_property>
+      <obj_property name="ObjectShortName">partition_out_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_out_csr_readdata">
+      <obj_property name="ElementShortName">partition_out_csr_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">partition_out_csr_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_fifo_out_data">
+      <obj_property name="ElementShortName">partition_fifo_out_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">partition_fifo_out_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_fifo_out_empty">
+      <obj_property name="ElementShortName">partition_fifo_out_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">partition_fifo_out_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_fifo_out_valid">
+      <obj_property name="ElementShortName">partition_fifo_out_valid</obj_property>
+      <obj_property name="ObjectShortName">partition_fifo_out_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_fifo_out_ready">
+      <obj_property name="ElementShortName">partition_fifo_out_ready</obj_property>
+      <obj_property name="ObjectShortName">partition_fifo_out_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_fifo_out_startofpacket">
+      <obj_property name="ElementShortName">partition_fifo_out_startofpacket</obj_property>
+      <obj_property name="ObjectShortName">partition_fifo_out_startofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/partition_fifo_out_endofpacket">
+      <obj_property name="ElementShortName">partition_fifo_out_endofpacket</obj_property>
+      <obj_property name="ObjectShortName">partition_fifo_out_endofpacket</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/l8_tx_data">
+      <obj_property name="ElementShortName">l8_tx_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">l8_tx_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/l8_tx_empty">
+      <obj_property name="ElementShortName">l8_tx_empty[5:0]</obj_property>
+      <obj_property name="ObjectShortName">l8_tx_empty[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/l8_tx_valid">
+      <obj_property name="ElementShortName">l8_tx_valid</obj_property>
+      <obj_property name="ObjectShortName">l8_tx_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/l8_tx_startofpacket">
+      <obj_property name="ElementShortName">l8_tx_startofpacket</obj_property>
+      <obj_property name="ObjectShortName">l8_tx_startofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/l8_tx_endofpacket">
+      <obj_property name="ElementShortName">l8_tx_endofpacket</obj_property>
+      <obj_property name="ObjectShortName">l8_tx_endofpacket</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/l8_tx_ready">
+      <obj_property name="ElementShortName">l8_tx_ready</obj_property>
+      <obj_property name="ObjectShortName">l8_tx_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/out_fifo0_in_csr_address">
+      <obj_property name="ElementShortName">out_fifo0_in_csr_address</obj_property>
+      <obj_property name="ObjectShortName">out_fifo0_in_csr_address</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/out_fifo0_in_csr_read">
+      <obj_property name="ElementShortName">out_fifo0_in_csr_read</obj_property>
+      <obj_property name="ObjectShortName">out_fifo0_in_csr_read</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/out_fifo0_in_csr_write">
+      <obj_property name="ElementShortName">out_fifo0_in_csr_write</obj_property>
+      <obj_property name="ObjectShortName">out_fifo0_in_csr_write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/out_fifo0_in_csr_readdata">
+      <obj_property name="ElementShortName">out_fifo0_in_csr_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo0_in_csr_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/out_fifo0_in_csr_writedata">
+      <obj_property name="ElementShortName">out_fifo0_in_csr_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo0_in_csr_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/disable_pcie">
+      <obj_property name="ElementShortName">disable_pcie</obj_property>
+      <obj_property name="ObjectShortName">disable_pcie</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pcie_rb_wr_data">
+      <obj_property name="ElementShortName">pcie_rb_wr_data[513:0]</obj_property>
+      <obj_property name="ObjectShortName">pcie_rb_wr_data[513:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pcie_rb_wr_addr">
+      <obj_property name="ElementShortName">pcie_rb_wr_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pcie_rb_wr_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/pcie_rb_wr_en">
+      <obj_property name="ElementShortName">pcie_rb_wr_en</obj_property>
+      <obj_property name="ObjectShortName">pcie_rb_wr_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pcie_rb_wr_base_addr">
+      <obj_property name="ElementShortName">pcie_rb_wr_base_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pcie_rb_wr_base_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/pcie_rb_almost_full">
+      <obj_property name="ElementShortName">pcie_rb_almost_full</obj_property>
+      <obj_property name="ObjectShortName">pcie_rb_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/pcie_rb_update_valid">
+      <obj_property name="ElementShortName">pcie_rb_update_valid</obj_property>
+      <obj_property name="ObjectShortName">pcie_rb_update_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pcie_rb_update_size">
+      <obj_property name="ElementShortName">pcie_rb_update_size[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pcie_rb_update_size[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pdumeta_cpu_data">
+      <obj_property name="ElementShortName">pdumeta_cpu_data[27:0]</obj_property>
+      <obj_property name="ObjectShortName">pdumeta_cpu_data[27:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/pdumeta_cpu_valid">
+      <obj_property name="ElementShortName">pdumeta_cpu_valid</obj_property>
+      <obj_property name="ObjectShortName">pdumeta_cpu_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pdumeta_cnt">
+      <obj_property name="ElementShortName">pdumeta_cnt[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pdumeta_cnt[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/ddr_wr_req_data">
+      <obj_property name="ElementShortName">ddr_wr_req_data[547:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_req_data[547:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/ddr_wr_req_valid">
+      <obj_property name="ElementShortName">ddr_wr_req_valid</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_req_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/ddr_wr_req_almost_full">
+      <obj_property name="ElementShortName">ddr_wr_req_almost_full</obj_property>
+      <obj_property name="ObjectShortName">ddr_wr_req_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/ddr_rd_req_data">
+      <obj_property name="ElementShortName">ddr_rd_req_data[33:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_req_data[33:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/ddr_rd_req_valid">
+      <obj_property name="ElementShortName">ddr_rd_req_valid</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_req_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/ddr_rd_req_almost_full">
+      <obj_property name="ElementShortName">ddr_rd_req_almost_full</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_req_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/ddr_rd_resp_data">
+      <obj_property name="ElementShortName">ddr_rd_resp_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_resp_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/ddr_rd_resp_valid">
+      <obj_property name="ElementShortName">ddr_rd_resp_valid</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_resp_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/ddr_rd_resp_almost_full">
+      <obj_property name="ElementShortName">ddr_rd_resp_almost_full</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_resp_almost_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/ddr_rd_resp_valid_int">
+      <obj_property name="ElementShortName">ddr_rd_resp_valid_int</obj_property>
+      <obj_property name="ObjectShortName">ddr_rd_resp_valid_int</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/esram_pll_lock">
+      <obj_property name="ElementShortName">esram_pll_lock</obj_property>
+      <obj_property name="ObjectShortName">esram_pll_lock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/esram_pkt_buf_wren">
+      <obj_property name="ElementShortName">esram_pkt_buf_wren</obj_property>
+      <obj_property name="ObjectShortName">esram_pkt_buf_wren</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pkt_buf_wraddress">
+      <obj_property name="ElementShortName">pkt_buf_wraddress[14:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_buf_wraddress[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pkt_buf_rdaddress">
+      <obj_property name="ElementShortName">pkt_buf_rdaddress[14:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_buf_rdaddress[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pkt_buf_wrdata">
+      <obj_property name="ElementShortName">pkt_buf_wrdata[519:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_buf_wrdata[519:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/pkt_buf_rden">
+      <obj_property name="ElementShortName">pkt_buf_rden</obj_property>
+      <obj_property name="ObjectShortName">pkt_buf_rden</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/pkt_buf_rd_valid">
+      <obj_property name="ElementShortName">pkt_buf_rd_valid</obj_property>
+      <obj_property name="ObjectShortName">pkt_buf_rd_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pkt_buf_rddata">
+      <obj_property name="ElementShortName">pkt_buf_rddata[519:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_buf_rddata[519:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/s_addr">
+      <obj_property name="ElementShortName">s_addr[29:0]</obj_property>
+      <obj_property name="ObjectShortName">s_addr[29:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/s_read">
+      <obj_property name="ElementShortName">s_read</obj_property>
+      <obj_property name="ObjectShortName">s_read</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/s_write">
+      <obj_property name="ElementShortName">s_write</obj_property>
+      <obj_property name="ObjectShortName">s_write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/s_writedata">
+      <obj_property name="ElementShortName">s_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/s_readdata">
+      <obj_property name="ElementShortName">s_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/s_readdata_valid">
+      <obj_property name="ElementShortName">s_readdata_valid</obj_property>
+      <obj_property name="ObjectShortName">s_readdata_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/s_cnt">
+      <obj_property name="ElementShortName">s_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/top_readdata">
+      <obj_property name="ElementShortName">top_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">top_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/top_readdata_valid">
+      <obj_property name="ElementShortName">top_readdata_valid</obj_property>
+      <obj_property name="ObjectShortName">top_readdata_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/top2_readdata">
+      <obj_property name="ElementShortName">top2_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">top2_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/top2_readdata_valid">
+      <obj_property name="ElementShortName">top2_readdata_valid</obj_property>
+      <obj_property name="ObjectShortName">top2_readdata_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/dram_readdata">
+      <obj_property name="ElementShortName">dram_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dram_readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/dram_readdata_valid">
+      <obj_property name="ElementShortName">dram_readdata_valid</obj_property>
+      <obj_property name="ObjectShortName">dram_readdata_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/tx_cnt">
+      <obj_property name="ElementShortName">tx_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/rx_cnt">
+      <obj_property name="ElementShortName">rx_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pktID">
+      <obj_property name="ElementShortName">pktID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pktID[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/ft_pkt">
+      <obj_property name="ElementShortName">ft_pkt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ft_pkt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/rate_cnt">
+      <obj_property name="ElementShortName">rate_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rate_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/sim_pdumeta_cpu_data">
+      <obj_property name="ElementShortName">sim_pdumeta_cpu_data</obj_property>
+      <obj_property name="ObjectShortName">sim_pdumeta_cpu_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/sim_pdumeta_cpu_valid">
+      <obj_property name="ElementShortName">sim_pdumeta_cpu_valid</obj_property>
+      <obj_property name="ObjectShortName">sim_pdumeta_cpu_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/sim_pdumeta_cpu_ready">
+      <obj_property name="ElementShortName">sim_pdumeta_cpu_ready</obj_property>
+      <obj_property name="ObjectShortName">sim_pdumeta_cpu_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pdumeta_state">
+      <obj_property name="ElementShortName">pdumeta_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pdumeta_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/pdumeta_wait_cnt">
+      <obj_property name="ElementShortName">pdumeta_wait_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pdumeta_wait_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/read_state">
+      <obj_property name="ElementShortName">read_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/conf_state">
+      <obj_property name="ElementShortName">conf_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">conf_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/reg_cnt">
+      <obj_property name="ElementShortName">reg_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/reg_recv_cnt">
+      <obj_property name="ElementShortName">reg_recv_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_recv_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/top_out_ready">
+      <obj_property name="ElementShortName">top_out_ready</obj_property>
+      <obj_property name="ObjectShortName">top_out_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/pkt_buf_wren">
+      <obj_property name="ElementShortName">pkt_buf_wren</obj_property>
+      <obj_property name="ObjectShortName">pkt_buf_wren</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/period">
+      <obj_property name="ElementShortName">period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_2/period_rx">
+      <obj_property name="ElementShortName">period_rx</obj_property>
+      <obj_property name="ObjectShortName">period_rx</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_2/period_tx">
+      <obj_property name="ElementShortName">period_tx</obj_property>
+      <obj_property name="ObjectShortName">period_tx</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/period_user">
+      <obj_property name="ElementShortName">period_user[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period_user[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_2/period_user_high">
+      <obj_property name="ElementShortName">period_user_high</obj_property>
+      <obj_property name="ObjectShortName">period_user_high</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/period_esram_ref">
+      <obj_property name="ElementShortName">period_esram_ref[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period_esram_ref[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/period_pcie">
+      <obj_property name="ElementShortName">period_pcie[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period_pcie[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/period_emif">
+      <obj_property name="ElementShortName">period_emif[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period_emif[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/data_width">
+      <obj_property name="ElementShortName">data_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/lo">
+      <obj_property name="ElementShortName">lo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lo[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/hi">
+      <obj_property name="ElementShortName">hi[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hi[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_2/stop">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/nf_forward_threshold">
+      <obj_property name="ElementShortName">nf_forward_threshold[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nf_forward_threshold[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_acc_hash_sv_3986433122 " />
+            <top_module name="glbl" />
+            <top_module name="tb_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="96.662501 us"></ZoomEndTime>
+      <Cursor1Time time="96.662500 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="288"></NameColumnWidth>
+      <ValueColumnWidth column_width="109"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="70" />
+   <wvobject type="logic" fp_name="/tb_2/clk_status">
+      <obj_property name="ElementShortName">clk_status</obj_property>
+      <obj_property name="ObjectShortName">clk_status</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_rxmac">
+      <obj_property name="ElementShortName">clk_rxmac</obj_property>
+      <obj_property name="ObjectShortName">clk_rxmac</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_txmac">
+      <obj_property name="ElementShortName">clk_txmac</obj_property>
+      <obj_property name="ObjectShortName">clk_txmac</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_user">
+      <obj_property name="ElementShortName">clk_user</obj_property>
+      <obj_property name="ObjectShortName">clk_user</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_user_high">
+      <obj_property name="ElementShortName">clk_user_high</obj_property>
+      <obj_property name="ObjectShortName">clk_user_high</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_esram_ref">
+      <obj_property name="ElementShortName">clk_esram_ref</obj_property>
+      <obj_property name="ObjectShortName">clk_esram_ref</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_pcie">
+      <obj_property name="ElementShortName">clk_pcie</obj_property>
+      <obj_property name="ObjectShortName">clk_pcie</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/clk_emif">
+      <obj_property name="ElementShortName">clk_emif</obj_property>
+      <obj_property name="ObjectShortName">clk_emif</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_2/emif_reset_n">
+      <obj_property name="ElementShortName">emif_reset_n</obj_property>
+      <obj_property name="ObjectShortName">emif_reset_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/cnt">
+      <obj_property name="ElementShortName">cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/addr">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/out_pkt_status">
+      <obj_property name="ElementShortName">out_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/in_pkt_status">
+      <obj_property name="ElementShortName">in_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/incomp_out_meta_status">
+      <obj_property name="ElementShortName">incomp_out_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">incomp_out_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/parser_out_meta_status">
+      <obj_property name="ElementShortName">parser_out_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">parser_out_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/ft_in_meta_status">
+      <obj_property name="ElementShortName">ft_in_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ft_in_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/ft_out_meta_status">
+      <obj_property name="ElementShortName">ft_out_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ft_out_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/emptylist_in_status">
+      <obj_property name="ElementShortName">emptylist_in_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emptylist_in_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/emptylist_out_status">
+      <obj_property name="ElementShortName">emptylist_out_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">emptylist_out_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/dm_in_meta_status">
+      <obj_property name="ElementShortName">dm_in_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_in_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/dm_out_meta_status">
+      <obj_property name="ElementShortName">dm_out_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_out_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/dm_in_forward_meta_status">
+      <obj_property name="ElementShortName">dm_in_forward_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_in_forward_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/dm_in_drop_meta_status">
+      <obj_property name="ElementShortName">dm_in_drop_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_in_drop_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/dm_in_check_meta_status">
+      <obj_property name="ElementShortName">dm_in_check_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_in_check_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/dm_in_ooo_meta_status">
+      <obj_property name="ElementShortName">dm_in_ooo_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_in_ooo_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/dm_in_forward_ooo_meta_status">
+      <obj_property name="ElementShortName">dm_in_forward_ooo_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_in_forward_ooo_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/nopayload_pkt_status">
+      <obj_property name="ElementShortName">nopayload_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nopayload_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/dm_check_pkt_status">
+      <obj_property name="ElementShortName">dm_check_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_check_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/sm_pkt_status">
+      <obj_property name="ElementShortName">sm_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sm_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/sm_meta_status">
+      <obj_property name="ElementShortName">sm_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sm_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/sm_rule_status">
+      <obj_property name="ElementShortName">sm_rule_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sm_rule_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/sm_check_pkt_status">
+      <obj_property name="ElementShortName">sm_check_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sm_check_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/sm_check_pkt_s_status">
+      <obj_property name="ElementShortName">sm_check_pkt_s_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sm_check_pkt_s_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/sm_nocheck_pkt_status">
+      <obj_property name="ElementShortName">sm_nocheck_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sm_nocheck_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/pg_pkt_status">
+      <obj_property name="ElementShortName">pg_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pg_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/pg_meta_status">
+      <obj_property name="ElementShortName">pg_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pg_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/pg_rule_status">
+      <obj_property name="ElementShortName">pg_rule_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pg_rule_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/pg_check_pkt_status">
+      <obj_property name="ElementShortName">pg_check_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pg_check_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/pg_check_pkt_s_status">
+      <obj_property name="ElementShortName">pg_check_pkt_s_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pg_check_pkt_s_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/pg_nocheck_pkt_status">
+      <obj_property name="ElementShortName">pg_nocheck_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pg_nocheck_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/bypass_pkt_status">
+      <obj_property name="ElementShortName">bypass_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bypass_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/bypass_pkt_s_status">
+      <obj_property name="ElementShortName">bypass_pkt_s_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bypass_pkt_s_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/bypass_meta_status">
+      <obj_property name="ElementShortName">bypass_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bypass_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/bypass_rule_status">
+      <obj_property name="ElementShortName">bypass_rule_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bypass_rule_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/nf_pkt_status">
+      <obj_property name="ElementShortName">nf_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nf_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/nf_rule_status">
+      <obj_property name="ElementShortName">nf_rule_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nf_rule_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/nf_meta_status">
+      <obj_property name="ElementShortName">nf_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nf_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/nf_check_pkt_status">
+      <obj_property name="ElementShortName">nf_check_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nf_check_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/nf_check_pkt_s_status">
+      <obj_property name="ElementShortName">nf_check_pkt_s_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nf_check_pkt_s_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/nf_nocheck_pkt_status">
+      <obj_property name="ElementShortName">nf_nocheck_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nf_nocheck_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/merge_pkt_status">
+      <obj_property name="ElementShortName">merge_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">merge_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/merge_pkt_s_status">
+      <obj_property name="ElementShortName">merge_pkt_s_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">merge_pkt_s_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/merge_meta_status">
+      <obj_property name="ElementShortName">merge_meta_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">merge_meta_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/merge_rule_status">
+      <obj_property name="ElementShortName">merge_rule_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">merge_rule_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/dma_pkt_status">
+      <obj_property name="ElementShortName">dma_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/cpu_nomatch_pkt_status">
+      <obj_property name="ElementShortName">cpu_nomatch_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_nomatch_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/cpu_match_pkt_status">
+      <obj_property name="ElementShortName">cpu_match_pkt_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_match_pkt_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/ctrl_status">
+      <obj_property name="ElementShortName">ctrl_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/max_dm2sm_status">
+      <obj_property name="ElementShortName">max_dm2sm_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_dm2sm_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/max_sm2pg_status">
+      <obj_property name="ElementShortName">max_sm2pg_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_sm2pg_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/max_pg2nf_status">
+      <obj_property name="ElementShortName">max_pg2nf_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_pg2nf_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/max_bypass2nf_status">
+      <obj_property name="ElementShortName">max_bypass2nf_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_bypass2nf_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/max_nf2pdu_status">
+      <obj_property name="ElementShortName">max_nf2pdu_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_nf2pdu_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/sm_bypass_af_status">
+      <obj_property name="ElementShortName">sm_bypass_af_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sm_bypass_af_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/sm_cdc_af_status">
+      <obj_property name="ElementShortName">sm_cdc_af_status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sm_cdc_af_status[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/stats_in_pkt_dm2sm">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">stats_in_pkt_dm2sm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stats_in_pkt_dm2sm[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">dm2sm channel FIFO service in_status</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_dm2sm/in_pkt/txP">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+      <obj_property name="label">dm2sm channel FIFO service data in</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_dm2sm/out_pkt/txP">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+      <obj_property name="label">dm2sm channel FIFO service data out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_2/partition_1/my_fpm/in_pkt/txP">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">txP</obj_property>
+      <obj_property name="ObjectShortName">txP</obj_property>
+      <obj_property name="label">fpm data in</obj_property>
+   </wvobject>
+</wave_config>

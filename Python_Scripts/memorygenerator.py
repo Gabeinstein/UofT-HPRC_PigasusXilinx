@@ -1,21 +1,15 @@
 
-import os			#USE IN EXTERNAL COMPUTER DUE TO AGENT RESTRiCTIONS
+import os			
 
 def ver_to_mem(ver_path, mem_path):
     with open(ver_path, 'r') as ver_file:
         lines = ver_file.readlines()
-
     mem_lines = []
 
     for line in lines:
-        # Remove leading/trailing whitespace
         line = line.strip()
-
-        # Skip empty lines and address lines
         if not line or line.startswith('@'):
             continue
-
-        # Handle data line
         data = line
         mem_lines.append(data)
 
@@ -24,10 +18,8 @@ def ver_to_mem(ver_path, mem_path):
             mem_file.write(mem_line + '\n')
 
 def translate_ver_to_mem_in_directory(ver_dir, mem_dir):
-    # Ensure the MEM directory exists
     os.makedirs(mem_dir, exist_ok=True)
 
-    # Iterate over all .ver files in the VER directory
     for filename in os.listdir(ver_dir):
         if filename.endswith('.ver'):
             ver_path = os.path.join(ver_dir, filename)
@@ -36,5 +28,8 @@ def translate_ver_to_mem_in_directory(ver_dir, mem_dir):
             ver_to_mem(ver_path, mem_path)
             print(f"Translated {ver_path} to {mem_path}")
 
-translate_ver_to_mem_in_directory('/home/gabriel/Desktop/go_workspace/Python Scripts/VER', '/home/gabriel/Desktop/go_workspace/Python Scripts/MEM')
+ver_path = os.path.join(os.getcwd(), 'VER')
+mem_path = os.path.join(os.getcwd(), 'MEM')
+
+translate_ver_to_mem_in_directory(ver_path, mem_path)
 
